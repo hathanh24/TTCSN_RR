@@ -524,9 +524,331 @@
 		max_height 	28350
 		max_width  	21600
 		origin_x   	0
-		origin_y   	2345
+		origin_y   	2344
 		items      	(list diagram_item_list
-		    (object ClassView "Class" "Use Case View::HeThongCSDL" @1
+		    (object UseCaseView "Use Case View::TimKiemSanPham" @1
+			location   	(1777, 109)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@1
+			    location   	(1777, 247)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	630
+			    justify    	0
+			    label      	"TimKiemSanPham")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"653BDFE101B7")
+		    (object UseCaseView "Use Case View::XemSPTheoDanhMuc" @2
+			location   	(1790, 365)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@2
+			    location   	(1790, 503)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	630
+			    justify    	0
+			    label      	"XemSPTheoDanhMuc")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"653BDFED00B7")
+		    (object UseCaseView "Use Case View::XemChiTietSanPham" @3
+			location   	(1806, 596)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@3
+			    location   	(1806, 734)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	630
+			    justify    	0
+			    label      	"XemChiTietSanPham")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"653BE01B0012")
+		    (object UseCaseView "Use Case View::ThemSPVaoGioHang" @4
+			location   	(1802, 824)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@4
+			    location   	(1802, 962)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	630
+			    justify    	0
+			    label      	"ThemSPVaoGioHang")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"653BE024035F")
+		    (object UseCaseView "Use Case View::QuanLyGioHang" @5
+			location   	(1809, 1062)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@5
+			    location   	(1809, 1200)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	630
+			    justify    	0
+			    label      	"QuanLyGioHang")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"653BE08A0300")
+		    (object UseCaseView "Use Case View::MuaHang" @6
+			location   	(1809, 1300)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@6
+			    location   	(1809, 1438)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	630
+			    justify    	0
+			    label      	"MuaHang")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"653BE094003C")
+		    (object UseCaseView "Use Case View::XemThongTinCuaHang" @7
+			location   	(1818, 1546)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@7
+			    location   	(1818, 1684)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	630
+			    justify    	0
+			    label      	"XemThongTinCuaHang")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"653BE09B00D9")
+		    (object UseCaseView "Use Case View::BaoTriSanPham" @8
+			location   	(1814, 1791)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@8
+			    location   	(1814, 1929)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	630
+			    justify    	0
+			    label      	"BaoTriSanPham")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"653BE0A90155")
+		    (object UseCaseView "Use Case View::BaoTriDonHang" @9
+			location   	(1826, 2086)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@9
+			    location   	(1826, 2224)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	630
+			    justify    	0
+			    label      	"BaoTriDonHang")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"653BE0C00325")
+		    (object UseCaseView "Use Case View::BaoTriKhachHang" @10
+			location   	(1832, 2384)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@10
+			    location   	(1832, 2522)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	630
+			    justify    	0
+			    label      	"BaoTriKhachHang")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"653BE0C80324")
+		    (object UseCaseView "Use Case View::BaoTriDanhMuc" @11
+			location   	(1823, 2634)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@11
+			    location   	(1823, 2772)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	630
+			    justify    	0
+			    label      	"BaoTriDanhMuc")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"653BE0D30046")
+		    (object UseCaseView "Use Case View::BaoTriThongTinCuaHang" @12
+			location   	(1842, 2873)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@12
+			    location   	(1842, 3011)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	630
+			    justify    	0
+			    label      	"BaoTriThongTinCuaHang")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"653BE0DA0272")
+		    (object UseCaseView "Use Case View::ThongKe" @13
+			location   	(1825, 3118)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@13
+			    location   	(1825, 3256)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	630
+			    justify    	0
+			    label      	"ThongKe")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"653BE0E7027F")
+		    (object UseCaseView "Use Case View::DangNhap" @14
+			location   	(1820, 3377)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@14
+			    location   	(1820, 3515)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	630
+			    justify    	0
+			    label      	"DangNhap")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"653BE0FA0042")
+		    (object ClassView "Class" "Use Case View::HeThongCSDL" @15
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
@@ -541,7 +863,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@1
+			    Parent_View 	@15
 			    location   	(3167, 2518)
 			    anchor_loc 	1
 			    nlines     	2
@@ -554,378 +876,427 @@
 			quidu      	"653BDFA301B5"
 			annotation 	8
 			autoResize 	TRUE)
-		    (object UseCaseView "Use Case View::TimKiemSanPham" @2
-			location   	(1777, 109)
-			font       	(object Font
-			    size       	10
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@2
-			    location   	(1777, 247)
-			    anchor_loc 	1
-			    nlines     	2
-			    max_width  	630
-			    justify    	0
-			    label      	"TimKiemSanPham")
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"653BDFE101B7")
-		    (object AssociationViewNew "$UNNAMED$0" @3
+		    (object AssociationViewNew "$UNNAMED$0" @16
 			location   	(2496, 1275)
 			stereotype 	TRUE
 			line_color 	3342489
 			quidu      	"653BE19A0046"
 			roleview_list 	(list RoleViews
-			    (object RoleView "$UNNAMED$1" @4
-				Parent_View 	@3
+			    (object RoleView "$UNNAMED$1" @17
+				Parent_View 	@16
 				location   	(719, 1166)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE19B000F"
-				client     	@3
-				supplier   	@1
+				client     	@16
+				supplier   	@15
 				vertices   	(list Points
 				    (2496, 1275)
 				    (3116, 2278))
 				line_style 	0)
-			    (object RoleView "$UNNAMED$2" @5
-				Parent_View 	@3
+			    (object RoleView "$UNNAMED$2" @18
+				Parent_View 	@16
 				location   	(719, 1166)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE19B0011"
-				client     	@3
-				supplier   	@2
+				client     	@16
+				supplier   	@1
 				vertices   	(list Points
 				    (2496, 1275)
 				    (1876, 272))
 				line_style 	0)))
-		    (object UseCaseView "Use Case View::XemSPTheoDanhMuc" @6
-			location   	(1790, 365)
-			font       	(object Font
-			    size       	10
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@6
-			    location   	(1790, 503)
-			    anchor_loc 	1
-			    nlines     	2
-			    max_width  	630
-			    justify    	0
-			    label      	"XemSPTheoDanhMuc")
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"653BDFED00B7")
-		    (object AssociationViewNew "$UNNAMED$3" @7
+		    (object AssociationViewNew "$UNNAMED$3" @19
 			location   	(2505, 1402)
 			stereotype 	TRUE
 			line_color 	3342489
 			quidu      	"653BE19F009A"
 			roleview_list 	(list RoleViews
-			    (object RoleView "$UNNAMED$4" @8
-				Parent_View 	@7
+			    (object RoleView "$UNNAMED$4" @20
+				Parent_View 	@19
 				location   	(715, 1037)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE19F03C0"
-				client     	@7
-				supplier   	@1
+				client     	@19
+				supplier   	@15
 				vertices   	(list Points
 				    (2505, 1402)
 				    (3109, 2276))
 				line_style 	0)
-			    (object RoleView "$UNNAMED$5" @9
-				Parent_View 	@7
+			    (object RoleView "$UNNAMED$5" @21
+				Parent_View 	@19
 				location   	(715, 1037)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE19F03C2"
-				client     	@7
-				supplier   	@6
+				client     	@19
+				supplier   	@2
 				vertices   	(list Points
 				    (2505, 1402)
 				    (1902, 528))
 				line_style 	0)))
-		    (object UseCaseView "Use Case View::XemChiTietSanPham" @10
-			location   	(1806, 596)
-			font       	(object Font
-			    size       	10
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@10
-			    location   	(1806, 734)
-			    anchor_loc 	1
-			    nlines     	2
-			    max_width  	630
-			    justify    	0
-			    label      	"XemChiTietSanPham")
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"653BE01B0012")
-		    (object AssociationViewNew "$UNNAMED$6" @11
+		    (object AssociationViewNew "$UNNAMED$6" @22
 			location   	(2519, 1520)
 			stereotype 	TRUE
 			line_color 	3342489
 			quidu      	"653BE1A20161"
 			roleview_list 	(list RoleViews
-			    (object RoleView "$UNNAMED$7" @12
-				Parent_View 	@11
+			    (object RoleView "$UNNAMED$7" @23
+				Parent_View 	@22
 				location   	(713, 924)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1A3011B"
-				client     	@11
-				supplier   	@1
+				client     	@22
+				supplier   	@15
 				vertices   	(list Points
 				    (2519, 1520)
 				    (3107, 2281))
 				line_style 	0)
-			    (object RoleView "$UNNAMED$8" @13
-				Parent_View 	@11
+			    (object RoleView "$UNNAMED$8" @24
+				Parent_View 	@22
 				location   	(713, 924)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1A3011F"
-				client     	@11
-				supplier   	@10
+				client     	@22
+				supplier   	@3
 				vertices   	(list Points
 				    (2519, 1520)
 				    (1931, 759))
 				line_style 	0)))
-		    (object UseCaseView "Use Case View::ThemSPVaoGioHang" @14
-			location   	(1802, 824)
-			font       	(object Font
-			    size       	10
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@14
-			    location   	(1802, 962)
-			    anchor_loc 	1
-			    nlines     	2
-			    max_width  	630
-			    justify    	0
-			    label      	"ThemSPVaoGioHang")
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"653BE024035F")
-		    (object AssociationViewNew "$UNNAMED$9" @15
+		    (object AssociationViewNew "$UNNAMED$9" @25
 			location   	(2526, 1638)
 			stereotype 	TRUE
 			line_color 	3342489
 			quidu      	"653BE1A80116"
 			roleview_list 	(list RoleViews
-			    (object RoleView "$UNNAMED$10" @16
-				Parent_View 	@15
+			    (object RoleView "$UNNAMED$10" @26
+				Parent_View 	@25
 				location   	(724, 814)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1A9002D"
-				client     	@15
-				supplier   	@1
+				client     	@25
+				supplier   	@15
 				vertices   	(list Points
 				    (2526, 1638)
 				    (3106, 2290))
 				line_style 	0)
-			    (object RoleView "$UNNAMED$11" @17
-				Parent_View 	@15
+			    (object RoleView "$UNNAMED$11" @27
+				Parent_View 	@25
 				location   	(724, 814)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1A90031"
-				client     	@15
-				supplier   	@14
+				client     	@25
+				supplier   	@4
 				vertices   	(list Points
 				    (2526, 1638)
 				    (1947, 987))
 				line_style 	0)))
-		    (object UseCaseView "Use Case View::QuanLyGioHang" @18
-			location   	(1809, 1062)
-			font       	(object Font
-			    size       	10
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@18
-			    location   	(1809, 1200)
-			    anchor_loc 	1
-			    nlines     	2
-			    max_width  	630
-			    justify    	0
-			    label      	"QuanLyGioHang")
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"653BE08A0300")
-		    (object AssociationViewNew "$UNNAMED$12" @19
+		    (object AssociationViewNew "$UNNAMED$12" @28
 			location   	(2532, 1751)
 			stereotype 	TRUE
 			line_color 	3342489
 			quidu      	"653BE1AB02CA"
 			roleview_list 	(list RoleViews
-			    (object RoleView "$UNNAMED$13" @20
-				Parent_View 	@19
+			    (object RoleView "$UNNAMED$13" @29
+				Parent_View 	@28
 				location   	(723, 689)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1AC017A"
-				client     	@19
-				supplier   	@1
+				client     	@28
+				supplier   	@15
 				vertices   	(list Points
 				    (2532, 1751)
 				    (3107, 2300))
 				line_style 	0)
-			    (object RoleView "$UNNAMED$14" @21
-				Parent_View 	@19
+			    (object RoleView "$UNNAMED$14" @30
+				Parent_View 	@28
 				location   	(723, 689)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1AC017D"
-				client     	@19
-				supplier   	@18
+				client     	@28
+				supplier   	@5
 				vertices   	(list Points
 				    (2532, 1751)
-				    (1957, 1202))
+				    (1958, 1203))
 				line_style 	0)))
-		    (object UseCaseView "Use Case View::MuaHang" @22
-			location   	(1809, 1300)
-			font       	(object Font
-			    size       	10
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@22
-			    location   	(1809, 1438)
-			    anchor_loc 	1
-			    nlines     	2
-			    max_width  	630
-			    justify    	0
-			    label      	"MuaHang")
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"653BE094003C")
-		    (object AssociationViewNew "$UNNAMED$15" @23
+		    (object AssociationViewNew "$UNNAMED$15" @31
 			location   	(2502, 1838)
 			stereotype 	TRUE
 			line_color 	3342489
 			quidu      	"653BE1AD03C5"
 			roleview_list 	(list RoleViews
-			    (object RoleView "$UNNAMED$16" @24
-				Parent_View 	@23
+			    (object RoleView "$UNNAMED$16" @32
+				Parent_View 	@31
 				location   	(693, 538)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1AE024A"
-				client     	@23
-				supplier   	@1
+				client     	@31
+				supplier   	@15
 				vertices   	(list Points
 				    (2502, 1838)
 				    (3107, 2309))
 				line_style 	0)
-			    (object RoleView "$UNNAMED$17" @25
-				Parent_View 	@23
+			    (object RoleView "$UNNAMED$17" @33
+				Parent_View 	@31
 				location   	(693, 538)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1AE024F"
-				client     	@23
-				supplier   	@22
+				client     	@31
+				supplier   	@6
 				vertices   	(list Points
 				    (2502, 1838)
 				    (1897, 1367))
 				line_style 	0)))
-		    (object UseCaseView "Use Case View::XemThongTinCuaHang" @26
-			location   	(1818, 1546)
-			font       	(object Font
-			    size       	10
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@26
-			    location   	(1818, 1684)
-			    anchor_loc 	1
-			    nlines     	2
-			    max_width  	630
-			    justify    	0
-			    label      	"XemThongTinCuaHang")
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"653BE09B00D9")
-		    (object AssociationViewNew "$UNNAMED$18" @27
+		    (object AssociationViewNew "$UNNAMED$18" @34
 			location   	(2563, 1992)
 			stereotype 	TRUE
 			line_color 	3342489
 			quidu      	"653BE1B00266"
 			roleview_list 	(list RoleViews
-			    (object RoleView "$UNNAMED$19" @28
-				Parent_View 	@27
+			    (object RoleView "$UNNAMED$19" @35
+				Parent_View 	@34
 				location   	(745, 446)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1B100BC"
-				client     	@27
-				supplier   	@1
+				client     	@34
+				supplier   	@15
 				vertices   	(list Points
 				    (2563, 1992)
 				    (3107, 2320))
 				line_style 	0)
-			    (object RoleView "$UNNAMED$20" @29
-				Parent_View 	@27
+			    (object RoleView "$UNNAMED$20" @36
+				Parent_View 	@34
 				location   	(745, 446)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1B100C2"
-				client     	@27
-				supplier   	@26
+				client     	@34
+				supplier   	@7
 				vertices   	(list Points
 				    (2563, 1992)
 				    (2020, 1665))
 				line_style 	0)))
-		    (object ClassView "Class" "Use Case View::KhachHang" @30
+		    (object AssociationViewNew "$UNNAMED$21" @37
+			location   	(2534, 2089)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"653BE1B202F2"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$22" @38
+				Parent_View 	@37
+				location   	(720, 298)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"653BE1B3018F"
+				client     	@37
+				supplier   	@15
+				vertices   	(list Points
+				    (2534, 2089)
+				    (3107, 2329))
+				line_style 	0)
+			    (object RoleView "$UNNAMED$23" @39
+				Parent_View 	@37
+				location   	(720, 298)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"653BE1B30196"
+				client     	@37
+				supplier   	@8
+				vertices   	(list Points
+				    (2534, 2089)
+				    (1962, 1849))
+				line_style 	0)))
+		    (object AssociationViewNew "$UNNAMED$24" @40
+			location   	(2521, 2223)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"653BE1B403D2"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$25" @41
+				Parent_View 	@40
+				location   	(695, 137)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"653BE1B502AF"
+				client     	@40
+				supplier   	@15
+				vertices   	(list Points
+				    (2521, 2223)
+				    (3108, 2342))
+				line_style 	0)
+			    (object RoleView "$UNNAMED$26" @42
+				Parent_View 	@40
+				location   	(695, 137)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"653BE1B502B6"
+				client     	@40
+				supplier   	@9
+				vertices   	(list Points
+				    (2521, 2223)
+				    (1934, 2105))
+				line_style 	0)))
+		    (object AssociationViewNew "$UNNAMED$27" @43
+			location   	(2524, 2368)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"653BE1B70202"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$28" @44
+				Parent_View 	@43
+				location   	(692, -16)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"653BE1B800A8"
+				client     	@43
+				supplier   	@15
+				vertices   	(list Points
+				    (2524, 2368)
+				    (3108, 2358))
+				line_style 	0)
+			    (object RoleView "$UNNAMED$29" @45
+				Parent_View 	@43
+				location   	(692, -16)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"653BE1B800B0"
+				client     	@43
+				supplier   	@10
+				vertices   	(list Points
+				    (2524, 2368)
+				    (1940, 2379))
+				line_style 	0)))
+		    (object AssociationViewNew "$UNNAMED$30" @46
+			location   	(2519, 2487)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"653BE1B902C3"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$31" @47
+				Parent_View 	@46
+				location   	(696, -147)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"653BE1BA01A5"
+				client     	@46
+				supplier   	@15
+				vertices   	(list Points
+				    (2519, 2487)
+				    (3108, 2367))
+				line_style 	0)
+			    (object RoleView "$UNNAMED$32" @48
+				Parent_View 	@46
+				location   	(696, -147)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"653BE1BA01AE"
+				client     	@46
+				supplier   	@11
+				vertices   	(list Points
+				    (2519, 2487)
+				    (1931, 2608))
+				line_style 	0)))
+		    (object AssociationViewNew "$UNNAMED$33" @49
+			location   	(2529, 2602)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"653BE1BD0094"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$34" @50
+				Parent_View 	@49
+				location   	(687, -271)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"653BE1BD0363"
+				client     	@49
+				supplier   	@15
+				vertices   	(list Points
+				    (2529, 2602)
+				    (3108, 2378))
+				line_style 	0)
+			    (object RoleView "$UNNAMED$35" @51
+				Parent_View 	@49
+				location   	(687, -271)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"653BE1BD036C"
+				client     	@49
+				supplier   	@12
+				vertices   	(list Points
+				    (2529, 2602)
+				    (1950, 2827))
+				line_style 	0)))
+		    (object AssociationViewNew "$UNNAMED$36" @52
+			location   	(2516, 2723)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"653BE1BF02EE"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$37" @53
+				Parent_View 	@52
+				location   	(691, -395)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"653BE1C20047"
+				client     	@52
+				supplier   	@15
+				vertices   	(list Points
+				    (2516, 2723)
+				    (3108, 2389))
+				line_style 	0)
+			    (object RoleView "$UNNAMED$38" @54
+				Parent_View 	@52
+				location   	(691, -395)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"653BE1C2004F"
+				client     	@52
+				supplier   	@13
+				vertices   	(list Points
+				    (2516, 2723)
+				    (1924, 3058))
+				line_style 	0)))
+		    (object AssociationViewNew "$UNNAMED$39" @55
+			location   	(2501, 2858)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"653BE1C6005C"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$40" @56
+				Parent_View 	@55
+				location   	(681, -519)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"653BE1C60257"
+				client     	@55
+				supplier   	@15
+				vertices   	(list Points
+				    (2501, 2858)
+				    (3108, 2399))
+				line_style 	0)
+			    (object RoleView "$UNNAMED$41" @57
+				Parent_View 	@55
+				location   	(681, -519)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"653BE1C60261"
+				client     	@55
+				supplier   	@14
+				vertices   	(list Points
+				    (2501, 2858)
+				    (1894, 3317))
+				line_style 	0)))
+		    (object ClassView "Class" "Use Case View::KhachHang" @58
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
@@ -940,11 +1311,11 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@30
+			    Parent_View 	@58
 			    location   	(690, 1469)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	328
+			    max_width  	325
 			    justify    	0
 			    label      	"KhachHang")
 			icon       	"Actor"
@@ -953,7 +1324,7 @@
 			quidu      	"653BDFB7016F"
 			annotation 	8
 			autoResize 	TRUE)
-		    (object AssociationViewNew "$UNNAMED$45" @31
+		    (object AssociationViewNew "$UNNAMED$45" @59
 			location   	(1188, 757)
 			font       	(object Font
 			    size       	10
@@ -968,31 +1339,31 @@
 			line_color 	3342489
 			quidu      	"653BE1CE01F7"
 			roleview_list 	(list RoleViews
-			    (object RoleView "$UNNAMED$46" @32
-				Parent_View 	@31
+			    (object RoleView "$UNNAMED$46" @60
+				Parent_View 	@59
 				location   	(498, -552)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1CF0094"
-				client     	@31
-				supplier   	@2
+				client     	@59
+				supplier   	@1
 				vertices   	(list Points
 				    (1188, 757)
 				    (1630, 272))
 				line_style 	0)
-			    (object RoleView "$UNNAMED$47" @33
-				Parent_View 	@31
+			    (object RoleView "$UNNAMED$47" @61
+				Parent_View 	@59
 				location   	(498, -552)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1CF0096"
-				client     	@31
-				supplier   	@30
+				client     	@59
+				supplier   	@58
 				vertices   	(list Points
 				    (1188, 757)
 				    (747, 1242))
 				line_style 	0)))
-		    (object AssociationViewNew "$UNNAMED$48" @34
+		    (object AssociationViewNew "$UNNAMED$48" @62
 			location   	(1173, 891)
 			font       	(object Font
 			    size       	10
@@ -1007,31 +1378,31 @@
 			line_color 	3342489
 			quidu      	"653BE1D10055"
 			roleview_list 	(list RoleViews
-			    (object RoleView "$UNNAMED$49" @35
-				Parent_View 	@34
+			    (object RoleView "$UNNAMED$49" @63
+				Parent_View 	@62
 				location   	(483, -418)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1D102AD"
-				client     	@34
-				supplier   	@6
+				client     	@62
+				supplier   	@2
 				vertices   	(list Points
 				    (1173, 891)
 				    (1599, 528))
 				line_style 	0)
-			    (object RoleView "$UNNAMED$50" @36
-				Parent_View 	@34
+			    (object RoleView "$UNNAMED$50" @64
+				Parent_View 	@62
 				location   	(483, -418)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1D102AF"
-				client     	@34
-				supplier   	@30
+				client     	@62
+				supplier   	@58
 				vertices   	(list Points
 				    (1173, 891)
 				    (747, 1255))
 				line_style 	0)))
-		    (object AssociationViewNew "$UNNAMED$51" @37
+		    (object AssociationViewNew "$UNNAMED$51" @65
 			location   	(1180, 993)
 			font       	(object Font
 			    size       	10
@@ -1046,31 +1417,31 @@
 			line_color 	3342489
 			quidu      	"653BE1D30305"
 			roleview_list 	(list RoleViews
-			    (object RoleView "$UNNAMED$52" @38
-				Parent_View 	@37
+			    (object RoleView "$UNNAMED$52" @66
+				Parent_View 	@65
 				location   	(490, -316)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1D40107"
-				client     	@37
-				supplier   	@10
+				client     	@65
+				supplier   	@3
 				vertices   	(list Points
 				    (1180, 993)
 				    (1614, 718))
 				line_style 	0)
-			    (object RoleView "$UNNAMED$53" @39
-				Parent_View 	@37
+			    (object RoleView "$UNNAMED$53" @67
+				Parent_View 	@65
 				location   	(490, -316)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1D40109"
-				client     	@37
-				supplier   	@30
+				client     	@65
+				supplier   	@58
 				vertices   	(list Points
 				    (1180, 993)
 				    (747, 1268))
 				line_style 	0)))
-		    (object AssociationViewNew "$UNNAMED$54" @40
+		    (object AssociationViewNew "$UNNAMED$54" @68
 			location   	(1178, 1092)
 			font       	(object Font
 			    size       	10
@@ -1085,31 +1456,31 @@
 			line_color 	3342489
 			quidu      	"653BE1D502D0"
 			roleview_list 	(list RoleViews
-			    (object RoleView "$UNNAMED$55" @41
-				Parent_View 	@40
+			    (object RoleView "$UNNAMED$55" @69
+				Parent_View 	@68
 				location   	(488, -217)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1D601A5"
-				client     	@40
-				supplier   	@14
+				client     	@68
+				supplier   	@4
 				vertices   	(list Points
 				    (1178, 1092)
 				    (1610, 904))
 				line_style 	0)
-			    (object RoleView "$UNNAMED$56" @42
-				Parent_View 	@40
+			    (object RoleView "$UNNAMED$56" @70
+				Parent_View 	@68
 				location   	(488, -217)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1D601A7"
-				client     	@40
-				supplier   	@30
+				client     	@68
+				supplier   	@58
 				vertices   	(list Points
 				    (1178, 1092)
 				    (747, 1280))
 				line_style 	0)))
-		    (object AssociationViewNew "$UNNAMED$57" @43
+		    (object AssociationViewNew "$UNNAMED$57" @71
 			location   	(1223, 1188)
 			font       	(object Font
 			    size       	10
@@ -1124,31 +1495,31 @@
 			line_color 	3342489
 			quidu      	"653BE1D90131"
 			roleview_list 	(list RoleViews
-			    (object RoleView "$UNNAMED$58" @44
-				Parent_View 	@43
+			    (object RoleView "$UNNAMED$58" @72
+				Parent_View 	@71
 				location   	(533, -121)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1D90311"
-				client     	@43
-				supplier   	@18
+				client     	@71
+				supplier   	@5
 				vertices   	(list Points
 				    (1223, 1188)
 				    (1699, 1083))
 				line_style 	0)
-			    (object RoleView "$UNNAMED$59" @45
-				Parent_View 	@43
+			    (object RoleView "$UNNAMED$59" @73
+				Parent_View 	@71
 				location   	(533, -121)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1D90313"
-				client     	@43
-				supplier   	@30
+				client     	@71
+				supplier   	@58
 				vertices   	(list Points
 				    (1223, 1188)
 				    (747, 1293))
 				line_style 	0)))
-		    (object AssociationViewNew "$UNNAMED$60" @46
+		    (object AssociationViewNew "$UNNAMED$60" @74
 			location   	(1223, 1302)
 			font       	(object Font
 			    size       	10
@@ -1163,31 +1534,31 @@
 			line_color 	3342489
 			quidu      	"653BE1DB0185"
 			roleview_list 	(list RoleViews
-			    (object RoleView "$UNNAMED$61" @47
-				Parent_View 	@46
+			    (object RoleView "$UNNAMED$61" @75
+				Parent_View 	@74
 				location   	(533, -7)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1DB0382"
-				client     	@46
-				supplier   	@22
+				client     	@74
+				supplier   	@6
 				vertices   	(list Points
 				    (1223, 1302)
 				    (1699, 1299))
 				line_style 	0)
-			    (object RoleView "$UNNAMED$62" @48
-				Parent_View 	@46
+			    (object RoleView "$UNNAMED$62" @76
+				Parent_View 	@74
 				location   	(533, -7)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1DB0384"
-				client     	@46
-				supplier   	@30
+				client     	@74
+				supplier   	@58
 				vertices   	(list Points
 				    (1223, 1302)
 				    (747, 1305))
 				line_style 	0)))
-		    (object AssociationViewNew "$UNNAMED$63" @49
+		    (object AssociationViewNew "$UNNAMED$63" @77
 			location   	(1227, 1419)
 			font       	(object Font
 			    size       	10
@@ -1202,403 +1573,32 @@
 			line_color 	3342489
 			quidu      	"653BE1DD00F0"
 			roleview_list 	(list RoleViews
-			    (object RoleView "$UNNAMED$64" @50
-				Parent_View 	@49
+			    (object RoleView "$UNNAMED$64" @78
+				Parent_View 	@77
 				location   	(537, 110)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1DE00D8"
-				client     	@49
-				supplier   	@26
+				client     	@77
+				supplier   	@7
 				vertices   	(list Points
 				    (1227, 1419)
 				    (1708, 1520))
 				line_style 	0)
-			    (object RoleView "$UNNAMED$65" @51
-				Parent_View 	@49
+			    (object RoleView "$UNNAMED$65" @79
+				Parent_View 	@77
 				location   	(537, 110)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1DE00DA"
-				client     	@49
-				supplier   	@30
+				client     	@77
+				supplier   	@58
 				vertices   	(list Points
 				    (1227, 1419)
 				    (747, 1319))
 				line_style 	0)))
-		    (object UseCaseView "Use Case View::BaoTriSanPham" @52
-			location   	(1814, 1791)
-			font       	(object Font
-			    size       	10
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@52
-			    location   	(1814, 1929)
-			    anchor_loc 	1
-			    nlines     	2
-			    max_width  	630
-			    justify    	0
-			    label      	"BaoTriSanPham")
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"653BE0A90155")
-		    (object AssociationViewNew "$UNNAMED$21" @53
-			location   	(2534, 2089)
-			stereotype 	TRUE
-			line_color 	3342489
-			quidu      	"653BE1B202F2"
-			roleview_list 	(list RoleViews
-			    (object RoleView "$UNNAMED$22" @54
-				Parent_View 	@53
-				location   	(720, 298)
-				stereotype 	TRUE
-				line_color 	3342489
-				quidu      	"653BE1B3018F"
-				client     	@53
-				supplier   	@1
-				vertices   	(list Points
-				    (2534, 2089)
-				    (3107, 2329))
-				line_style 	0)
-			    (object RoleView "$UNNAMED$23" @55
-				Parent_View 	@53
-				location   	(720, 298)
-				stereotype 	TRUE
-				line_color 	3342489
-				quidu      	"653BE1B30196"
-				client     	@53
-				supplier   	@52
-				vertices   	(list Points
-				    (2534, 2089)
-				    (1962, 1849))
-				line_style 	0)))
-		    (object UseCaseView "Use Case View::BaoTriDonHang" @56
-			location   	(1826, 2086)
-			font       	(object Font
-			    size       	10
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@56
-			    location   	(1826, 2224)
-			    anchor_loc 	1
-			    nlines     	2
-			    max_width  	630
-			    justify    	0
-			    label      	"BaoTriDonHang")
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"653BE0C00325")
-		    (object AssociationViewNew "$UNNAMED$24" @57
-			location   	(2521, 2223)
-			stereotype 	TRUE
-			line_color 	3342489
-			quidu      	"653BE1B403D2"
-			roleview_list 	(list RoleViews
-			    (object RoleView "$UNNAMED$25" @58
-				Parent_View 	@57
-				location   	(695, 137)
-				stereotype 	TRUE
-				line_color 	3342489
-				quidu      	"653BE1B502AF"
-				client     	@57
-				supplier   	@1
-				vertices   	(list Points
-				    (2521, 2223)
-				    (3108, 2342))
-				line_style 	0)
-			    (object RoleView "$UNNAMED$26" @59
-				Parent_View 	@57
-				location   	(695, 137)
-				stereotype 	TRUE
-				line_color 	3342489
-				quidu      	"653BE1B502B6"
-				client     	@57
-				supplier   	@56
-				vertices   	(list Points
-				    (2521, 2223)
-				    (1934, 2105))
-				line_style 	0)))
-		    (object UseCaseView "Use Case View::BaoTriKhachHang" @60
-			location   	(1832, 2384)
-			font       	(object Font
-			    size       	10
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@60
-			    location   	(1832, 2522)
-			    anchor_loc 	1
-			    nlines     	2
-			    max_width  	630
-			    justify    	0
-			    label      	"BaoTriKhachHang")
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"653BE0C80324")
-		    (object AssociationViewNew "$UNNAMED$27" @61
-			location   	(2524, 2368)
-			stereotype 	TRUE
-			line_color 	3342489
-			quidu      	"653BE1B70202"
-			roleview_list 	(list RoleViews
-			    (object RoleView "$UNNAMED$28" @62
-				Parent_View 	@61
-				location   	(692, -16)
-				stereotype 	TRUE
-				line_color 	3342489
-				quidu      	"653BE1B800A8"
-				client     	@61
-				supplier   	@1
-				vertices   	(list Points
-				    (2524, 2368)
-				    (3108, 2358))
-				line_style 	0)
-			    (object RoleView "$UNNAMED$29" @63
-				Parent_View 	@61
-				location   	(692, -16)
-				stereotype 	TRUE
-				line_color 	3342489
-				quidu      	"653BE1B800B0"
-				client     	@61
-				supplier   	@60
-				vertices   	(list Points
-				    (2524, 2368)
-				    (1940, 2379))
-				line_style 	0)))
-		    (object UseCaseView "Use Case View::BaoTriDanhMuc" @64
-			location   	(1823, 2634)
-			font       	(object Font
-			    size       	10
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@64
-			    location   	(1823, 2772)
-			    anchor_loc 	1
-			    nlines     	2
-			    max_width  	630
-			    justify    	0
-			    label      	"BaoTriDanhMuc")
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"653BE0D30046")
-		    (object AssociationViewNew "$UNNAMED$30" @65
-			location   	(2519, 2487)
-			stereotype 	TRUE
-			line_color 	3342489
-			quidu      	"653BE1B902C3"
-			roleview_list 	(list RoleViews
-			    (object RoleView "$UNNAMED$31" @66
-				Parent_View 	@65
-				location   	(696, -147)
-				stereotype 	TRUE
-				line_color 	3342489
-				quidu      	"653BE1BA01A5"
-				client     	@65
-				supplier   	@1
-				vertices   	(list Points
-				    (2519, 2487)
-				    (3108, 2367))
-				line_style 	0)
-			    (object RoleView "$UNNAMED$32" @67
-				Parent_View 	@65
-				location   	(696, -147)
-				stereotype 	TRUE
-				line_color 	3342489
-				quidu      	"653BE1BA01AE"
-				client     	@65
-				supplier   	@64
-				vertices   	(list Points
-				    (2519, 2487)
-				    (1931, 2608))
-				line_style 	0)))
-		    (object UseCaseView "Use Case View::BaoTriThongTinCuaHang" @68
-			location   	(1842, 2873)
-			font       	(object Font
-			    size       	10
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@68
-			    location   	(1842, 3011)
-			    anchor_loc 	1
-			    nlines     	2
-			    max_width  	630
-			    justify    	0
-			    label      	"BaoTriThongTinCuaHang")
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"653BE0DA0272")
-		    (object AssociationViewNew "$UNNAMED$33" @69
-			location   	(2529, 2602)
-			stereotype 	TRUE
-			line_color 	3342489
-			quidu      	"653BE1BD0094"
-			roleview_list 	(list RoleViews
-			    (object RoleView "$UNNAMED$34" @70
-				Parent_View 	@69
-				location   	(687, -271)
-				stereotype 	TRUE
-				line_color 	3342489
-				quidu      	"653BE1BD0363"
-				client     	@69
-				supplier   	@1
-				vertices   	(list Points
-				    (2529, 2602)
-				    (3108, 2378))
-				line_style 	0)
-			    (object RoleView "$UNNAMED$35" @71
-				Parent_View 	@69
-				location   	(687, -271)
-				stereotype 	TRUE
-				line_color 	3342489
-				quidu      	"653BE1BD036C"
-				client     	@69
-				supplier   	@68
-				vertices   	(list Points
-				    (2529, 2602)
-				    (1950, 2827))
-				line_style 	0)))
-		    (object UseCaseView "Use Case View::ThongKe" @72
-			location   	(1825, 3118)
-			font       	(object Font
-			    size       	10
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@72
-			    location   	(1825, 3256)
-			    anchor_loc 	1
-			    nlines     	2
-			    max_width  	630
-			    justify    	0
-			    label      	"ThongKe")
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"653BE0E7027F")
-		    (object AssociationViewNew "$UNNAMED$36" @73
-			location   	(2478, 2746)
-			stereotype 	TRUE
-			line_color 	3342489
-			quidu      	"653BE1BF02EE"
-			roleview_list 	(list RoleViews
-			    (object RoleView "$UNNAMED$37" @74
-				Parent_View 	@73
-				location   	(653, -372)
-				stereotype 	TRUE
-				line_color 	3342489
-				quidu      	"653BE1C20047"
-				client     	@73
-				supplier   	@1
-				vertices   	(list Points
-				    (2478, 2746)
-				    (3032, 2434))
-				line_style 	0)
-			    (object RoleView "$UNNAMED$38" @75
-				Parent_View 	@73
-				location   	(653, -372)
-				stereotype 	TRUE
-				line_color 	3342489
-				quidu      	"653BE1C2004F"
-				client     	@73
-				supplier   	@72
-				vertices   	(list Points
-				    (2478, 2746)
-				    (1924, 3058))
-				line_style 	0)))
-		    (object UseCaseView "Use Case View::DangNhap" @76
-			location   	(1820, 3377)
-			font       	(object Font
-			    size       	10
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@76
-			    location   	(1820, 3515)
-			    anchor_loc 	1
-			    nlines     	2
-			    max_width  	630
-			    justify    	0
-			    label      	"DangNhap")
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"653BE0FA0042")
-		    (object AssociationViewNew "$UNNAMED$39" @77
-			location   	(2463, 2888)
-			stereotype 	TRUE
-			line_color 	3342489
-			quidu      	"653BE1C6005C"
-			roleview_list 	(list RoleViews
-			    (object RoleView "$UNNAMED$40" @78
-				Parent_View 	@77
-				location   	(643, -489)
-				stereotype 	TRUE
-				line_color 	3342489
-				quidu      	"653BE1C60257"
-				client     	@77
-				supplier   	@1
-				vertices   	(list Points
-				    (2463, 2888)
-				    (3032, 2459))
-				line_style 	0)
-			    (object RoleView "$UNNAMED$41" @79
-				Parent_View 	@77
-				location   	(643, -489)
-				stereotype 	TRUE
-				line_color 	3342489
-				quidu      	"653BE1C60261"
-				client     	@77
-				supplier   	@76
-				vertices   	(list Points
-				    (2463, 2888)
-				    (1894, 3317))
-				line_style 	0)))
 		    (object AssociationViewNew "$UNNAMED$66" @80
-			location   	(1288, 2406)
+			location   	(1281, 2393)
 			font       	(object Font
 			    size       	10
 			    face       	"Arial"
@@ -1614,29 +1614,121 @@
 			roleview_list 	(list RoleViews
 			    (object RoleView "$UNNAMED$67" @81
 				Parent_View 	@80
-				location   	(598, 1097)
+				location   	(591, 1084)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1E700FC"
 				client     	@80
-				supplier   	@76
+				supplier   	@14
 				vertices   	(list Points
-				    (1288, 2406)
+				    (1281, 2393)
 				    (1786, 3318))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$68" @82
 				Parent_View 	@80
-				location   	(598, 1097)
+				location   	(591, 1084)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1E700FE"
 				client     	@80
-				supplier   	@30
+				supplier   	@58
 				vertices   	(list Points
-				    (1288, 2406)
-				    (791, 1494))
+				    (1281, 2393)
+				    (776, 1468))
 				line_style 	0)))
-		    (object ClassView "Class" "Use Case View::NguoiQuanTri" @83
+		    (object UseCaseView "Use Case View::DangKy" @83
+			location   	(1824, 3589)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@83
+			    location   	(1824, 3727)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	630
+			    justify    	0
+			    label      	"DangKy")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"653BE1060066")
+		    (object AssociationViewNew "$UNNAMED$42" @84
+			location   	(2457, 3006)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"653BE1C800BD"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$43" @85
+				Parent_View 	@84
+				location   	(614, -589)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"653BE1C802EA"
+				client     	@84
+				supplier   	@15
+				vertices   	(list Points
+				    (2457, 3006)
+				    (3032, 2481))
+				line_style 	0)
+			    (object RoleView "$UNNAMED$44" @86
+				Parent_View 	@84
+				location   	(614, -589)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"653BE1C802F4"
+				client     	@84
+				supplier   	@83
+				vertices   	(list Points
+				    (2457, 3006)
+				    (1883, 3531))
+				line_style 	0)))
+		    (object AssociationViewNew "$UNNAMED$69" @87
+			location   	(1286, 2512)
+			font       	(object Font
+			    size       	10
+			    face       	"Arial"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"653BE1EA0123"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$70" @88
+				Parent_View 	@87
+				location   	(596, 1203)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"653BE1EE00D7"
+				client     	@87
+				supplier   	@83
+				vertices   	(list Points
+				    (1286, 2512)
+				    (1792, 3531))
+				line_style 	0)
+			    (object RoleView "$UNNAMED$71" @89
+				Parent_View 	@87
+				location   	(596, 1203)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"653BE1EE00D9"
+				client     	@87
+				supplier   	@58
+				vertices   	(list Points
+				    (1286, 2512)
+				    (780, 1494))
+				line_style 	0)))
+		    (object ClassView "Class" "Use Case View::NguoiQuanTri" @90
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
@@ -1651,11 +1743,11 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@83
+			    Parent_View 	@90
 			    location   	(665, 2331)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	331
+			    max_width  	325
 			    justify    	0
 			    label      	"NguoiQuanTri")
 			icon       	"Actor"
@@ -1664,7 +1756,7 @@
 			quidu      	"653BDFC50352"
 			annotation 	8
 			autoResize 	TRUE)
-		    (object AssociationViewNew "$UNNAMED$72" @84
+		    (object AssociationViewNew "$UNNAMED$72" @91
 			location   	(1212, 1986)
 			font       	(object Font
 			    size       	10
@@ -1679,31 +1771,31 @@
 			line_color 	3342489
 			quidu      	"653BE1F003DA"
 			roleview_list 	(list RoleViews
-			    (object RoleView "$UNNAMED$73" @85
-				Parent_View 	@84
+			    (object RoleView "$UNNAMED$73" @92
+				Parent_View 	@91
 				location   	(547, -185)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1F10290"
-				client     	@84
-				supplier   	@52
+				client     	@91
+				supplier   	@8
 				vertices   	(list Points
 				    (1212, 1986)
 				    (1702, 1823))
 				line_style 	0)
-			    (object RoleView "$UNNAMED$74" @86
-				Parent_View 	@84
+			    (object RoleView "$UNNAMED$74" @93
+				Parent_View 	@91
 				location   	(547, -185)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1F10292"
-				client     	@84
-				supplier   	@83
+				client     	@91
+				supplier   	@90
 				vertices   	(list Points
 				    (1212, 1986)
 				    (722, 2150))
 				line_style 	0)))
-		    (object AssociationViewNew "$UNNAMED$75" @87
+		    (object AssociationViewNew "$UNNAMED$75" @94
 			location   	(1218, 2127)
 			font       	(object Font
 			    size       	10
@@ -1718,31 +1810,31 @@
 			line_color 	3342489
 			quidu      	"653BE1F300B4"
 			roleview_list 	(list RoleViews
-			    (object RoleView "$UNNAMED$76" @88
-				Parent_View 	@87
+			    (object RoleView "$UNNAMED$76" @95
+				Parent_View 	@94
 				location   	(553, -44)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1F30318"
-				client     	@87
-				supplier   	@56
+				client     	@94
+				supplier   	@9
 				vertices   	(list Points
 				    (1218, 2127)
 				    (1714, 2090))
 				line_style 	0)
-			    (object RoleView "$UNNAMED$77" @89
-				Parent_View 	@87
+			    (object RoleView "$UNNAMED$77" @96
+				Parent_View 	@94
 				location   	(553, -44)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1F3031A"
-				client     	@87
-				supplier   	@83
+				client     	@94
+				supplier   	@90
 				vertices   	(list Points
 				    (1218, 2127)
 				    (722, 2164))
 				line_style 	0)))
-		    (object AssociationViewNew "$UNNAMED$78" @90
+		    (object AssociationViewNew "$UNNAMED$78" @97
 			location   	(1221, 2269)
 			font       	(object Font
 			    size       	10
@@ -1757,31 +1849,31 @@
 			line_color 	3342489
 			quidu      	"653BE1F50133"
 			roleview_list 	(list RoleViews
-			    (object RoleView "$UNNAMED$79" @91
-				Parent_View 	@90
+			    (object RoleView "$UNNAMED$79" @98
+				Parent_View 	@97
 				location   	(556, 98)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1F502D3"
-				client     	@90
-				supplier   	@60
+				client     	@97
+				supplier   	@10
 				vertices   	(list Points
 				    (1221, 2269)
 				    (1720, 2360))
 				line_style 	0)
-			    (object RoleView "$UNNAMED$80" @92
-				Parent_View 	@90
+			    (object RoleView "$UNNAMED$80" @99
+				Parent_View 	@97
 				location   	(556, 98)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1F502D5"
-				client     	@90
-				supplier   	@83
+				client     	@97
+				supplier   	@90
 				vertices   	(list Points
 				    (1221, 2269)
 				    (722, 2179))
 				line_style 	0)))
-		    (object AssociationViewNew "$UNNAMED$81" @93
+		    (object AssociationViewNew "$UNNAMED$81" @100
 			location   	(1216, 2389)
 			font       	(object Font
 			    size       	10
@@ -1796,31 +1888,31 @@
 			line_color 	3342489
 			quidu      	"653BE1F70259"
 			roleview_list 	(list RoleViews
-			    (object RoleView "$UNNAMED$82" @94
-				Parent_View 	@93
+			    (object RoleView "$UNNAMED$82" @101
+				Parent_View 	@100
 				location   	(551, 218)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1F80010"
-				client     	@93
-				supplier   	@64
+				client     	@100
+				supplier   	@11
 				vertices   	(list Points
 				    (1216, 2389)
 				    (1711, 2587))
 				line_style 	0)
-			    (object RoleView "$UNNAMED$83" @95
-				Parent_View 	@93
+			    (object RoleView "$UNNAMED$83" @102
+				Parent_View 	@100
 				location   	(551, 218)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1F80012"
-				client     	@93
-				supplier   	@83
+				client     	@100
+				supplier   	@90
 				vertices   	(list Points
 				    (1216, 2389)
 				    (722, 2191))
 				line_style 	0)))
-		    (object AssociationViewNew "$UNNAMED$84" @96
+		    (object AssociationViewNew "$UNNAMED$84" @103
 			location   	(1234, 2509)
 			font       	(object Font
 			    size       	10
@@ -1835,32 +1927,32 @@
 			line_color 	3342489
 			quidu      	"653BE1F90383"
 			roleview_list 	(list RoleViews
-			    (object RoleView "$UNNAMED$85" @97
-				Parent_View 	@96
+			    (object RoleView "$UNNAMED$85" @104
+				Parent_View 	@103
 				location   	(569, 338)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1FA019A"
-				client     	@96
-				supplier   	@68
+				client     	@103
+				supplier   	@12
 				vertices   	(list Points
 				    (1234, 2509)
 				    (1747, 2815))
 				line_style 	0)
-			    (object RoleView "$UNNAMED$86" @98
-				Parent_View 	@96
+			    (object RoleView "$UNNAMED$86" @105
+				Parent_View 	@103
 				location   	(569, 338)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1FA019D"
-				client     	@96
-				supplier   	@83
+				client     	@103
+				supplier   	@90
 				vertices   	(list Points
 				    (1234, 2509)
 				    (722, 2203))
 				line_style 	0)))
-		    (object AssociationViewNew "$UNNAMED$87" @99
-			location   	(1271, 2665)
+		    (object AssociationViewNew "$UNNAMED$87" @106
+			location   	(1238, 2638)
 			font       	(object Font
 			    size       	10
 			    face       	"Arial"
@@ -1874,32 +1966,32 @@
 			line_color 	3342489
 			quidu      	"653BE1FC0149"
 			roleview_list 	(list RoleViews
-			    (object RoleView "$UNNAMED$88" @100
-				Parent_View 	@99
-				location   	(606, 494)
+			    (object RoleView "$UNNAMED$88" @107
+				Parent_View 	@106
+				location   	(573, 467)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1FD0015"
-				client     	@99
-				supplier   	@72
+				client     	@106
+				supplier   	@13
 				vertices   	(list Points
-				    (1271, 2665)
+				    (1238, 2638)
 				    (1754, 3060))
 				line_style 	0)
-			    (object RoleView "$UNNAMED$89" @101
-				Parent_View 	@99
-				location   	(606, 494)
+			    (object RoleView "$UNNAMED$89" @108
+				Parent_View 	@106
+				location   	(573, 467)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1FD0017"
-				client     	@99
-				supplier   	@83
+				client     	@106
+				supplier   	@90
 				vertices   	(list Points
-				    (1271, 2665)
-				    (789, 2271))
+				    (1238, 2638)
+				    (722, 2216))
 				line_style 	0)))
-		    (object AssociationViewNew "$UNNAMED$90" @102
-			location   	(1276, 2809)
+		    (object AssociationViewNew "$UNNAMED$90" @109
+			location   	(1243, 2774)
 			font       	(object Font
 			    size       	10
 			    face       	"Arial"
@@ -1913,124 +2005,32 @@
 			line_color 	3342489
 			quidu      	"653BE1FE03C8"
 			roleview_list 	(list RoleViews
-			    (object RoleView "$UNNAMED$91" @103
-				Parent_View 	@102
-				location   	(611, 638)
+			    (object RoleView "$UNNAMED$91" @110
+				Parent_View 	@109
+				location   	(578, 603)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1FF0339"
-				client     	@102
-				supplier   	@76
+				client     	@109
+				supplier   	@14
 				vertices   	(list Points
-				    (1276, 2809)
+				    (1243, 2774)
 				    (1764, 3319))
 				line_style 	0)
-			    (object RoleView "$UNNAMED$92" @104
-				Parent_View 	@102
-				location   	(611, 638)
+			    (object RoleView "$UNNAMED$92" @111
+				Parent_View 	@109
+				location   	(578, 603)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE1FF033B"
-				client     	@102
-				supplier   	@83
-				vertices   	(list Points
-				    (1276, 2809)
-				    (789, 2300))
-				line_style 	0)))
-		    (object UseCaseView "Use Case View::DangKy" @105
-			location   	(1843, 3595)
-			font       	(object Font
-			    size       	10
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@105
-			    location   	(1843, 3733)
-			    anchor_loc 	1
-			    nlines     	2
-			    max_width  	630
-			    justify    	0
-			    label      	"DangKy")
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"653BE1060066")
-		    (object AssociationViewNew "$UNNAMED$42" @106
-			location   	(2465, 3010)
-			stereotype 	TRUE
-			line_color 	3342489
-			quidu      	"653BE1C800BD"
-			roleview_list 	(list RoleViews
-			    (object RoleView "$UNNAMED$43" @107
-				Parent_View 	@106
-				location   	(622, -585)
-				stereotype 	TRUE
-				line_color 	3342489
-				quidu      	"653BE1C802EA"
-				client     	@106
-				supplier   	@1
-				vertices   	(list Points
-				    (2465, 3010)
-				    (3032, 2484))
-				line_style 	0)
-			    (object RoleView "$UNNAMED$44" @108
-				Parent_View 	@106
-				location   	(622, -585)
-				stereotype 	TRUE
-				line_color 	3342489
-				quidu      	"653BE1C802F4"
-				client     	@106
-				supplier   	@105
-				vertices   	(list Points
-				    (2465, 3010)
-				    (1899, 3537))
-				line_style 	0)))
-		    (object AssociationViewNew "$UNNAMED$69" @109
-			location   	(1296, 2515)
-			font       	(object Font
-			    size       	10
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			stereotype 	TRUE
-			line_color 	3342489
-			quidu      	"653BE1EA0123"
-			roleview_list 	(list RoleViews
-			    (object RoleView "$UNNAMED$70" @110
-				Parent_View 	@109
-				location   	(606, 1206)
-				stereotype 	TRUE
-				line_color 	3342489
-				quidu      	"653BE1EE00D7"
 				client     	@109
-				supplier   	@105
+				supplier   	@90
 				vertices   	(list Points
-				    (1296, 2515)
-				    (1811, 3537))
-				line_style 	0)
-			    (object RoleView "$UNNAMED$71" @111
-				Parent_View 	@109
-				location   	(606, 1206)
-				stereotype 	TRUE
-				line_color 	3342489
-				quidu      	"653BE1EE00D9"
-				client     	@109
-				supplier   	@30
-				vertices   	(list Points
-				    (1296, 2515)
-				    (782, 1494))
+				    (1243, 2774)
+				    (722, 2230))
 				line_style 	0)))
 		    (object AssociationViewNew "$UNNAMED$93" @112
-			location   	(1291, 2928)
+			location   	(1281, 2926)
 			font       	(object Font
 			    size       	10
 			    face       	"Arial"
@@ -2046,27 +2046,27 @@
 			roleview_list 	(list RoleViews
 			    (object RoleView "$UNNAMED$94" @113
 				Parent_View 	@112
-				location   	(626, 757)
+				location   	(616, 755)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE2090110"
 				client     	@112
-				supplier   	@105
+				supplier   	@83
 				vertices   	(list Points
-				    (1291, 2928)
-				    (1793, 3535))
+				    (1281, 2926)
+				    (1774, 3529))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$95" @114
 				Parent_View 	@112
-				location   	(626, 757)
+				location   	(616, 755)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"653BE2090112"
 				client     	@112
-				supplier   	@83
+				supplier   	@90
 				vertices   	(list Points
-				    (1291, 2928)
-				    (789, 2322))
+				    (1281, 2926)
+				    (789, 2323))
 				line_style 	0)))))))
     root_category 	(object Class_Category "Logical View"
 	quid       	"653BD15B0053"
@@ -2074,7 +2074,4354 @@
 	global     	TRUE
 	subsystem  	"Component View"
 	quidu      	"653BD15B0055"
-	logical_models 	(list unit_reference_list)
+	logical_models 	(list unit_reference_list
+	    (object Class "BaoTriThongTinCuaHangUI"
+		quid       	"653C72F1035D"
+		stereotype 	"boundary"
+		operations 	(list Operations
+		    (object Operation "Click \"Cua Hang\""
+			quid       	"653C73770397"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "Hien thi danh sach cac cua hang"
+			quid       	"653C739902A7"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "Click \"Them moi\""
+			quid       	"653C73A50210"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "Click \"Tao\""
+			quid       	"653C73D600C3"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "Hien thi danh sach cua hang da duoc cap nhat"
+			quid       	"653C73C60325"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "Click \"Sua\""
+			quid       	"653C74070390"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "Hien thi thong tin cu cua cua hang duoc chon"
+			quid       	"653C741802EC"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "Click \"Cap nhat\""
+			quid       	"653C744A02F3"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "Hien thi danh sach cua hang da duoc cap nhat"
+			quid       	"653C74550124"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "Click \"Xoa\""
+			quid       	"653C747800D4"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "Hien thi man hinh xac nhan xoa"
+			quid       	"653C748000AD"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "Click \"Dong y\""
+			quid       	"653C748B00F7"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "Hien thi danh sach cua hang da duoc cap nhat"
+			quid       	"653C749703AC"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "Click \"Huy\""
+			quid       	"653C74E301E0"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "Click \"Huy bo\""
+			quid       	"653C74F30027"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "Hien thi thong bao loi \"Loi ket noi\""
+			quid       	"653C75CE021B"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)))
+	    (object Class "BaoTriThongTinCuaHangController"
+		quid       	"653C7642025B"
+		stereotype 	"control"
+		operations 	(list Operations
+		    (object Operation "Lay thong tin cac cua hang"
+			quid       	"653C76A80341"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "Cap nhat bang PAGES"
+			quid       	"653C76CE0041"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "Lay thong tin cac cua hang"
+			quid       	"653C776601BE"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "Cap nhat bang PAGES"
+			quid       	"653C77BF0068"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "Xoa cua hang"
+			quid       	"653C77CD01C1"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "Cap nhat bang PAGES"
+			quid       	"653C77DB0272"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "Huy xoa cua hang"
+			quid       	"653C77ED0276"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)))
+	    (object Class "IHeThongCSDL"
+		quid       	"653C78180305"
+		stereotype 	"boundary"
+		operations 	(list Operations
+		    (object Operation "Doc bang PAGES"
+			quid       	"653C790303A0"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "Cap nhat bang PAGES"
+			quid       	"653C791B0279"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)))
+	    (object Class "PAGES"
+		quid       	"653C7952032F"
+		stereotype 	"entity"
+		operations 	(list Operations
+		    (object Operation "getPageID"
+			quid       	"653C7CF802FD"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "setPageID"
+			quid       	"653C7D0501CF"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "getContents"
+			quid       	"653C7D0B03D4"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "setContents"
+			quid       	"653C7D12030E"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "getThumb"
+			quid       	"653C7D1901C5"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "setThumb"
+			quid       	"653C7D55033D"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "getPublished"
+			quid       	"653C7D630043"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "setPublished"
+			quid       	"653C7D6C0028"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "getTitle"
+			quid       	"653C7D720303"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "setTitle"
+			quid       	"653C7D790107"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "getMetaDesc"
+			quid       	"653C7D7B02E1"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "setMetaDesc"
+			quid       	"653C7D8102F7"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "getMetaKey"
+			quid       	"653C7D860034"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "setMetaKey"
+			quid       	"653C7D9600F8"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "getAlias"
+			quid       	"653C7DA50187"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "setAlias"
+			quid       	"653C7DAC0107"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "getCreatedDate"
+			quid       	"653C7DAE028D"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "setCreatedDate"
+			quid       	"653C7DC0005C"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "getOrdering"
+			quid       	"653C7DC40312"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "setOrdering"
+			quid       	"653C7DCD032A"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0))
+		class_attributes 	(list class_attribute_list
+		    (object ClassAttribute "PageID"
+			quid       	"653C795D0302")
+		    (object ClassAttribute "PageName"
+			quid       	"653C796D0038")
+		    (object ClassAttribute "Contents"
+			quid       	"653C797201DA")
+		    (object ClassAttribute "Thumb"
+			quid       	"653C797B0283")
+		    (object ClassAttribute "Published"
+			quid       	"653C797F037C")
+		    (object ClassAttribute "Title"
+			quid       	"653C7988034D")
+		    (object ClassAttribute "MetaDesc"
+			quid       	"653C798A021F")
+		    (object ClassAttribute "MetaKey"
+			quid       	"653C798E02FC")
+		    (object ClassAttribute "Alias"
+			quid       	"653C799101C7")
+		    (object ClassAttribute "CreatedDate"
+			quid       	"653C799400B4")
+		    (object ClassAttribute "Ordering"
+			quid       	"653C799D00BB")))
+	    (object Class_Category "MoHinhPhanTich"
+		quid       	"653C71ED0396"
+		exportControl 	"Public"
+		logical_models 	(list unit_reference_list
+		    (object UseCase "BaoTriThongTinCuaHang"
+			quid       	"653C71F802DC"
+			stereotype 	"use-case realization"
+			logical_models 	(list unit_reference_list
+			    (object Mechanism @115
+				logical_models 	(list unit_reference_list
+				    (object Object "$UNNAMED$96"
+					quid       	"653C7ECD01E9"
+					collaborators 	(list link_list
+					    (object Link
+						quid       	"653C7F3D00A3"
+						supplier   	"$UNNAMED$97"
+						quidu      	"653C7EED023C"
+						messages   	(list Messages
+						    (object Message "Click \"Cua Hang\"()"
+							quid       	"653C7F3D00A4"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"1"
+							ordinal    	0
+							Operation  	
+|Click "Cua Hang"( )
+							
+							quidu      	"653C73770397"
+							creation   	FALSE)
+						    (object Message "Click \"Them moi\"()"
+							quid       	"653C807200C3"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"8"
+							ordinal    	7
+							Operation  	
+|Click "Them moi"( )
+							
+							quidu      	"653C73A50210"
+							creation   	FALSE)
+						    (object Message "Nhap thong tin moi cho cua hang"
+							quid       	"653C809A02B7"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"9"
+							ordinal    	8
+							quidu      	"000000000000"
+							creation   	FALSE)
+						    (object Message "Click \"Tao\""
+							quid       	"653C81B501DF"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"10"
+							ordinal    	9
+							Operation  	
+|Click "Tao"( )
+							
+							quidu      	"653C73D600C3"
+							creation   	FALSE)
+						    (object Message "Click \"Sua\"()"
+							quid       	"653C828E0010"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"17"
+							ordinal    	16
+							Operation  	
+|Click "Sua"( )
+							
+							quidu      	"653C74070390"
+							creation   	FALSE)
+						    (object Message "Nhap thong tin moi cho cua hang"
+							quid       	"653C82CD0092"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"18"
+							ordinal    	17
+							quidu      	"000000000000"
+							creation   	FALSE)
+						    (object Message "Click \"Cap nhat\"()"
+							quid       	"653C82F10092"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"19"
+							ordinal    	18
+							Operation  	
+|Click "Cap nhat"( )
+							
+							quidu      	"653C744A02F3"
+							creation   	FALSE)
+						    (object Message "Click \"Xoa\"()"
+							quid       	"653C83EE0313"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"26"
+							ordinal    	25
+							Operation  	
+|Click "Xoa"( )
+							
+							quidu      	"653C747800D4"
+							creation   	FALSE)
+						    (object Message "Click \"Dong y\"()"
+							quid       	"653C84280229"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"28"
+							ordinal    	27
+							Operation  	
+|Click "Dong y"( )
+							
+							quidu      	"653C748B00F7"
+							creation   	FALSE))))
+					class      	"Use Case View::NguoiQuanTri"
+					quidu      	"653BDFC50352"
+					persistence 	"Transient"
+					creationObj 	TRUE
+					multi      	FALSE)
+				    (object Object "$UNNAMED$97"
+					quid       	"653C7EED023C"
+					collaborators 	(list link_list
+					    (object Link
+						quid       	"653C7F6A02B0"
+						supplier   	"$UNNAMED$98"
+						quidu      	"653C7EF403AB"
+						messages   	(list Messages
+						    (object Message "Lay thong tin cac cua hang()"
+							quid       	"653C7F6A02B1"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"2"
+							ordinal    	1
+							Operation  	"Lay thong tin cac cua hang( )"
+							quidu      	"653C776601BE"
+							creation   	FALSE)
+						    (object Message "return ket qua"
+							quid       	"653C803002F5"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"ToClientFromSupplier"
+							sequence   	"6"
+							ordinal    	5
+							quidu      	"000000000000"
+							creation   	FALSE)
+						    (object Message "Cap nhat cua hang moi()"
+							quid       	"653C81DE0206"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"11"
+							ordinal    	10
+							quidu      	"000000000000"
+							creation   	FALSE)
+						    (object Message "return ket qua"
+							quid       	"653C8273013F"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"ToClientFromSupplier"
+							sequence   	"15"
+							ordinal    	14
+							quidu      	"000000000000"
+							creation   	FALSE)
+						    (object Message "Cap nhat thong tin cua hang()"
+							quid       	"653C83220237"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"20"
+							ordinal    	19
+							quidu      	"000000000000"
+							creation   	FALSE)
+						    (object Message "return ket qua"
+							quid       	"653C83D30106"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"ToClientFromSupplier"
+							sequence   	"24"
+							ordinal    	23
+							quidu      	"000000000000"
+							creation   	FALSE)
+						    (object Message "Xoa cua hang()"
+							quid       	"653C8440012E"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"29"
+							ordinal    	28
+							Operation  	"Xoa cua hang( )"
+							quidu      	"653C77CD01C1"
+							creation   	FALSE)
+						    (object Message "return ket qua"
+							quid       	"653C8498021F"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"ToClientFromSupplier"
+							sequence   	"33"
+							ordinal    	32
+							quidu      	"000000000000"
+							creation   	FALSE)))
+					    (object Link
+						quid       	"653C803C0047"
+						supplier   	"$UNNAMED$97"
+						quidu      	"653C7EED023C"
+						messages   	(list Messages
+						    (object Message "Hien thi danh sach cac cua hang()"
+							quid       	"653C803C0048"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"7"
+							ordinal    	6
+							Operation  	"Hien thi danh sach cac cua hang( )"
+							quidu      	"653C739902A7"
+							creation   	FALSE)
+						    (object Message "Hien thi danh sach cac cua hang()"
+							quid       	"653C8279015B"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"16"
+							ordinal    	15
+							Operation  	"Hien thi danh sach cac cua hang( )"
+							quidu      	"653C739902A7"
+							creation   	FALSE)
+						    (object Message "Hien thi danh sach cac cua hang()"
+							quid       	"653C83DD0040"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"25"
+							ordinal    	24
+							Operation  	"Hien thi danh sach cac cua hang( )"
+							quidu      	"653C739902A7"
+							creation   	FALSE)
+						    (object Message "Hien thi man hinh xac nhan xoa()"
+							quid       	"653C8414015A"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"27"
+							ordinal    	26
+							Operation  	"Hien thi man hinh xac nhan xoa( )"
+							quidu      	"653C748000AD"
+							creation   	FALSE)
+						    (object Message "Hien thi danh sach cac cua hang()"
+							quid       	"653C849F0379"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"34"
+							ordinal    	33
+							Operation  	"Hien thi danh sach cac cua hang( )"
+							quidu      	"653C739902A7"
+							creation   	FALSE))))
+					class      	"Logical View::BaoTriThongTinCuaHangUI"
+					quidu      	"653C72F1035D"
+					persistence 	"Transient"
+					creationObj 	TRUE
+					multi      	FALSE)
+				    (object Object "$UNNAMED$98"
+					quid       	"653C7EF403AB"
+					collaborators 	(list link_list
+					    (object Link
+						quid       	"653C7FA5028E"
+						supplier   	"$UNNAMED$99"
+						quidu      	"653C7EF90344"
+						messages   	(list Messages
+						    (object Message "Doc bang PAGES()"
+							quid       	"653C7FA5028F"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"3"
+							ordinal    	2
+							Operation  	"Doc bang PAGES( )"
+							quidu      	"653C790303A0"
+							creation   	FALSE)
+						    (object Message "Cap nhat bang PAGES()"
+							quid       	"653C822900FD"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"13"
+							ordinal    	12
+							Operation  	"Cap nhat bang PAGES( )"
+							quidu      	"653C791B0279"
+							creation   	FALSE)
+						    (object Message "Cap nhat bang PAGES()"
+							quid       	"653C83AA003A"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"22"
+							ordinal    	21
+							Operation  	"Cap nhat bang PAGES( )"
+							quidu      	"653C791B0279"
+							creation   	FALSE)
+						    (object Message "Cap nhat bang PAGES()"
+							quid       	"653C846C001A"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"31"
+							ordinal    	30
+							Operation  	"Cap nhat bang PAGES( )"
+							quidu      	"653C791B0279"
+							creation   	FALSE)))
+					    (object Link
+						quid       	"653C7FE20392"
+						supplier   	"$UNNAMED$100"
+						quidu      	"653C7F0F0318"
+						messages   	(list Messages
+						    (object Message "getPages()"
+							quid       	"653C7FE20393"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"5"
+							ordinal    	4
+							quidu      	"000000000000"
+							creation   	FALSE)
+						    (object Message "setPAGESbyPageID()"
+							quid       	"653C81FF026E"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"12"
+							ordinal    	11
+							quidu      	"000000000000"
+							creation   	FALSE)
+						    (object Message "setPAGESbyPageID()"
+							quid       	"653C8398001C"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"21"
+							ordinal    	20
+							quidu      	"000000000000"
+							creation   	FALSE)
+						    (object Message "deletePAGESbyPageID()"
+							quid       	"653C844D033B"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"30"
+							ordinal    	29
+							quidu      	"000000000000"
+							creation   	FALSE))))
+					class      	"Logical View::BaoTriThongTinCuaHangController"
+					quidu      	"653C7642025B"
+					persistence 	"Transient"
+					creationObj 	FALSE
+					multi      	FALSE)
+				    (object Object "$UNNAMED$99"
+					quid       	"653C7EF90344"
+					collaborators 	(list link_list
+					    (object Link
+						quid       	"653C7FD403E1"
+						supplier   	"$UNNAMED$101"
+						quidu      	"653C7EFF00D3"
+						messages   	(list Messages
+						    (object Message "Doc bang PAGES()"
+							quid       	"653C7FD403E2"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"4"
+							ordinal    	3
+							quidu      	"000000000000"
+							creation   	FALSE)
+						    (object Message "Cap nhat bang PAGES()"
+							quid       	"653C8234024F"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"14"
+							ordinal    	13
+							quidu      	"000000000000"
+							creation   	FALSE)
+						    (object Message "Cap nhat bang PAGES()"
+							quid       	"653C83B601CE"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"23"
+							ordinal    	22
+							quidu      	"000000000000"
+							creation   	FALSE)
+						    (object Message "Cap nhat bang PAGES()"
+							quid       	"653C8474015C"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"32"
+							ordinal    	31
+							quidu      	"000000000000"
+							creation   	FALSE))))
+					class      	"Logical View::IHeThongCSDL"
+					quidu      	"653C78180305"
+					persistence 	"Transient"
+					creationObj 	FALSE
+					multi      	FALSE)
+				    (object Object "$UNNAMED$101"
+					quid       	"653C7EFF00D3"
+					class      	"Use Case View::HeThongCSDL"
+					quidu      	"653BDFA301B5"
+					persistence 	"Transient"
+					creationObj 	FALSE
+					multi      	FALSE)
+				    (object Object "$UNNAMED$100"
+					quid       	"653C7F0F0318"
+					class      	"Logical View::PAGES"
+					quidu      	"653C7952032F"
+					persistence 	"Transient"
+					creationObj 	FALSE
+					multi      	FALSE)))
+			    (object Mechanism @116
+				logical_models 	(list unit_reference_list
+				    (object Object "$UNNAMED$102"
+					quid       	"653C84E80097"
+					collaborators 	(list link_list
+					    (object Link
+						quid       	"653C86AF0303"
+						supplier   	"$UNNAMED$103"
+						quidu      	"653C856E0372"
+						messages   	(list Messages
+						    (object Message "Click \"Khong dong y\"()"
+							quid       	"653C86AF0304"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"4"
+							ordinal    	3
+							quidu      	"000000000000"
+							creation   	FALSE))))
+					class      	"Use Case View::NguoiQuanTri"
+					quidu      	"653BDFC50352"
+					persistence 	"Transient"
+					creationObj 	TRUE
+					multi      	FALSE)
+				    (object Object "$UNNAMED$103"
+					quid       	"653C856E0372"
+					collaborators 	(list link_list
+					    (object Link
+						quid       	"653C866C037C"
+						supplier   	"$UNNAMED$103"
+						quidu      	"653C856E0372"
+						messages   	(list Messages
+						    (object Message "Hien thi thong bao loi \"Thong tin khong hop le\"()"
+							quid       	"653C866C037D"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"3"
+							ordinal    	2
+							quidu      	"000000000000"
+							creation   	FALSE)
+						    (object Message "Hien thi thong bao \"Loi ket noi den co so du lieu\"()"
+							quid       	"653C877A00EC"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"10"
+							ordinal    	9
+							quidu      	"000000000000"
+							creation   	FALSE))))
+					class      	"Logical View::BaoTriThongTinCuaHangUI"
+					quidu      	"653C72F1035D"
+					persistence 	"Transient"
+					creationObj 	TRUE
+					multi      	FALSE)
+				    (object Object "$UNNAMED$104"
+					quid       	"653C857402A0"
+					collaborators 	(list link_list
+					    (object Link
+						quid       	"653C8627032D"
+						supplier   	"$UNNAMED$105"
+						quidu      	"653C85770040"
+						messages   	(list Messages
+						    (object Message "setPAGESbyPageID()"
+							quid       	"653C8627032E"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"1"
+							ordinal    	0
+							quidu      	"000000000000"
+							creation   	FALSE)))
+					    (object Link
+						quid       	"653C86410190"
+						supplier   	"$UNNAMED$103"
+						quidu      	"653C856E0372"
+						messages   	(list Messages
+						    (object Message "return ket qua"
+							quid       	"653C86410191"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"2"
+							ordinal    	1
+							quidu      	"000000000000"
+							creation   	FALSE)
+						    (object Message "Huy xoa cua hang()"
+							quid       	"653C87240040"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"ToClientFromSupplier"
+							sequence   	"5"
+							ordinal    	4
+							Operation  	"Huy xoa cua hang( )"
+							quidu      	"653C77ED0276"
+							creation   	FALSE)
+						    (object Message "return ket qua"
+							quid       	"653C872C0396"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"6"
+							ordinal    	5
+							quidu      	"000000000000"
+							creation   	FALSE)
+						    (object Message "return loi"
+							quid       	"653C877403CE"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"9"
+							ordinal    	8
+							quidu      	"000000000000"
+							creation   	FALSE))))
+					class      	"Logical View::BaoTriThongTinCuaHangController"
+					quidu      	"653C7642025B"
+					persistence 	"Transient"
+					creationObj 	TRUE
+					multi      	FALSE)
+				    (object Object "$UNNAMED$105"
+					quid       	"653C85770040"
+					class      	"Logical View::PAGES"
+					quidu      	"653C7952032F"
+					persistence 	"Transient"
+					creationObj 	TRUE
+					multi      	FALSE)
+				    (object Object "$UNNAMED$106"
+					quid       	"653C857900EE"
+					collaborators 	(list link_list
+					    (object Link
+						quid       	"653C875A022D"
+						supplier   	"$UNNAMED$107"
+						quidu      	"653C857C022A"
+						messages   	(list Messages
+						    (object Message "Doc bang PAGES()"
+							quid       	"653C875A022E"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"7"
+							ordinal    	6
+							quidu      	"000000000000"
+							creation   	FALSE))))
+					class      	"Logical View::IHeThongCSDL"
+					quidu      	"653C78180305"
+					persistence 	"Transient"
+					creationObj 	TRUE
+					multi      	FALSE)
+				    (object Object "$UNNAMED$107"
+					quid       	"653C857C022A"
+					collaborators 	(list link_list
+					    (object Link
+						quid       	"653C876D02A0"
+						supplier   	"$UNNAMED$104"
+						quidu      	"653C857402A0"
+						messages   	(list Messages
+						    (object Message "return loi"
+							quid       	"653C876D02A1"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"8"
+							ordinal    	7
+							quidu      	"000000000000"
+							creation   	FALSE))))
+					class      	"Use Case View::HeThongCSDL"
+					quidu      	"653BDFA301B5"
+					persistence 	"Transient"
+					creationObj 	FALSE
+					multi      	FALSE))))
+			logical_presentations 	(list unit_reference_list
+			    (object ClassDiagram "VOPC"
+				quid       	"653C725F0148"
+				title      	"VOPC"
+				zoom       	100
+				max_height 	28350
+				max_width  	21600
+				origin_x   	2250
+				origin_y   	0
+				items      	(list diagram_item_list
+				    (object ClassView "Class" "Logical View::BaoTriThongTinCuaHangUI" @117
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(981, 678)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@117
+					    location   	(539, 221)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	884
+					    justify    	0
+					    label      	"BaoTriThongTinCuaHangUI")
+					stereotype 	(object ItemLabel
+					    Parent_View 	@117
+					    location   	(539, 171)
+					    fill_color 	13434879
+					    anchor     	10
+					    nlines     	1
+					    max_width  	884
+					    justify    	0
+					    label      	"<<boundary>>")
+					icon       	"boundary"
+					icon_style 	"Label"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"653C72F1035D"
+					compartment 	(object Compartment
+					    Parent_View 	@117
+					    location   	(539, 326)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    icon_style 	"Icon"
+					    fill_color 	13434879
+					    anchor     	2
+					    nlines     	1
+					    max_width  	882
+					    justify    	1)
+					width      	902
+					height     	1038
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::IHeThongCSDL" @118
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(3378, 587)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@118
+					    location   	(3138, 480)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	480
+					    justify    	0
+					    label      	"IHeThongCSDL")
+					stereotype 	(object ItemLabel
+					    Parent_View 	@118
+					    location   	(3138, 430)
+					    fill_color 	13434879
+					    anchor     	10
+					    nlines     	1
+					    max_width  	480
+					    justify    	0
+					    label      	"<<boundary>>")
+					icon       	"boundary"
+					icon_style 	"Label"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"653C78180305"
+					compartment 	(object Compartment
+					    Parent_View 	@118
+					    location   	(3138, 585)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    icon_style 	"Icon"
+					    fill_color 	13434879
+					    anchor     	2
+					    nlines     	3
+					    max_width  	478
+					    justify    	1)
+					width      	498
+					height     	338
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::BaoTriThongTinCuaHangController" @119
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(2284, 414)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@119
+					    location   	(1958, 182)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	652
+					    justify    	0
+					    label      	"BaoTriThongTinCuaHangController")
+					stereotype 	(object ItemLabel
+					    Parent_View 	@119
+					    location   	(1958, 132)
+					    fill_color 	13434879
+					    anchor     	10
+					    nlines     	1
+					    max_width  	652
+					    justify    	0
+					    label      	"<<control>>")
+					icon       	"control"
+					icon_style 	"Label"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"653C7642025B"
+					compartment 	(object Compartment
+					    Parent_View 	@119
+					    location   	(1958, 287)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    icon_style 	"Icon"
+					    fill_color 	13434879
+					    anchor     	2
+					    nlines     	8
+					    max_width  	544
+					    justify    	1)
+					width      	670
+					height     	588
+					annotation 	8
+					autoResize 	TRUE)
+				    (object AssociationViewNew "" @120
+					location   	(1690, 533)
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"653C7E02032F"
+					roleview_list 	(list RoleViews
+					    (object RoleView "" @121
+						Parent_View 	@120
+						location   	(1125, -148)
+						font       	(object Font
+						    size       	10
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @122
+						    Parent_View 	@121
+						    location   	(1888, 452)
+						    font       	(object Font
+							size       	10
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    hidden     	TRUE
+						    anchor     	1
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	60
+						    justify    	0
+						    label      	""
+						    pctDist    	0.800000
+						    height     	42
+						    orientation 	0)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"653C7E0301E1"
+						client     	@120
+						supplier   	@119
+						vertices   	(list Points
+						    (1690, 533)
+						    (1948, 481))
+						line_style 	0
+						label      	(object SegLabel @123
+						    Parent_View 	@121
+						    location   	(1933, 539)
+						    font       	(object Font
+							size       	10
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    anchor     	2
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	15
+						    justify    	0
+						    label      	"1"
+						    pctDist    	0.900000
+						    height     	54
+						    orientation 	1))
+					    (object RoleView "" @124
+						Parent_View 	@120
+						location   	(1125, -148)
+						font       	(object Font
+						    size       	10
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						label      	(object SegLabel @125
+						    Parent_View 	@124
+						    location   	(1478, 535)
+						    font       	(object Font
+							size       	10
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    hidden     	TRUE
+						    anchor     	1
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	60
+						    justify    	0
+						    label      	""
+						    pctDist    	0.800000
+						    height     	42
+						    orientation 	1)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"653C7E0301E3"
+						client     	@120
+						supplier   	@117
+						vertices   	(list Points
+						    (1690, 533)
+						    (1432, 586))
+						line_style 	0
+						label      	(object SegLabel @126
+						    Parent_View 	@124
+						    location   	(1469, 634)
+						    font       	(object Font
+							size       	10
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    anchor     	2
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	15
+						    justify    	0
+						    label      	"1"
+						    pctDist    	0.900000
+						    height     	54
+						    orientation 	0))))
+				    (object AssociationViewNew "" @127
+					location   	(2873, 505)
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"653C7E3803A1"
+					roleview_list 	(list RoleViews
+					    (object RoleView "" @128
+						Parent_View 	@127
+						location   	(1109, 250)
+						font       	(object Font
+						    size       	10
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"653C7E39018B"
+						client     	@127
+						supplier   	@118
+						vertices   	(list Points
+						    (2873, 505)
+						    (3128, 545))
+						line_style 	0
+						label      	(object SegLabel @129
+						    Parent_View 	@128
+						    location   	(3095, 594)
+						    font       	(object Font
+							size       	10
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    anchor     	2
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	15
+						    justify    	0
+						    label      	"1"
+						    pctDist    	0.900000
+						    height     	54
+						    orientation 	1))
+					    (object RoleView "" @130
+						Parent_View 	@127
+						location   	(1109, 250)
+						font       	(object Font
+						    size       	10
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"653C7E39018D"
+						client     	@127
+						supplier   	@119
+						vertices   	(list Points
+						    (2873, 505)
+						    (2619, 465))
+						line_style 	0
+						label      	(object SegLabel @131
+						    Parent_View 	@130
+						    location   	(2639, 522)
+						    font       	(object Font
+							size       	10
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    anchor     	2
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	15
+						    justify    	0
+						    label      	"1"
+						    pctDist    	0.900000
+						    height     	54
+						    orientation 	0))))
+				    (object ClassView "Class" "Logical View::PAGES" @132
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(2316, 1837)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@132
+					    location   	(2141, 1005)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	350
+					    justify    	0
+					    label      	"PAGES")
+					stereotype 	(object ItemLabel
+					    Parent_View 	@132
+					    location   	(2141, 955)
+					    fill_color 	13434879
+					    anchor     	10
+					    nlines     	1
+					    max_width  	350
+					    justify    	0
+					    label      	"<<entity>>")
+					icon       	"entity"
+					icon_style 	"Label"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"653C7952032F"
+					compartment 	(object Compartment
+					    Parent_View 	@132
+					    location   	(2141, 1110)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    icon_style 	"Icon"
+					    fill_color 	13434879
+					    anchor     	2
+					    nlines     	32
+					    max_width  	347
+					    justify    	1)
+					width      	368
+					height     	1788
+					annotation 	8
+					autoResize 	TRUE)
+				    (object AssociationViewNew "" @133
+					location   	(2292, 825)
+					stereotype 	TRUE
+					line_color 	3342489
+					quidu      	"653C7E4F032A"
+					roleview_list 	(list RoleViews
+					    (object RoleView "" @134
+						Parent_View 	@133
+						location   	(528, 570)
+						font       	(object Font
+						    size       	10
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"653C7E500184"
+						client     	@133
+						supplier   	@132
+						vertices   	(list Points
+						    (2292, 825)
+						    (2295, 942))
+						line_style 	0
+						label      	(object SegLabel @135
+						    Parent_View 	@134
+						    location   	(2349, 930)
+						    font       	(object Font
+							size       	10
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    anchor     	2
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	15
+						    justify    	0
+						    label      	"*"
+						    pctDist    	0.900000
+						    height     	54
+						    orientation 	0))
+					    (object RoleView "" @136
+						Parent_View 	@133
+						location   	(528, 570)
+						font       	(object Font
+						    size       	10
+						    face       	"Arial"
+						    bold       	FALSE
+						    italics    	FALSE
+						    underline  	FALSE
+						    strike     	FALSE
+						    color      	0
+						    default_color 	TRUE)
+						stereotype 	TRUE
+						line_color 	3342489
+						quidu      	"653C7E500186"
+						client     	@133
+						supplier   	@119
+						vertices   	(list Points
+						    (2292, 825)
+						    (2290, 708))
+						line_style 	0
+						label      	(object SegLabel @137
+						    Parent_View 	@136
+						    location   	(2344, 720)
+						    font       	(object Font
+							size       	10
+							face       	"Arial"
+							bold       	FALSE
+							italics    	FALSE
+							underline  	FALSE
+							strike     	FALSE
+							color      	0
+							default_color 	TRUE)
+						    anchor     	2
+						    anchor_loc 	1
+						    nlines     	1
+						    max_width  	15
+						    justify    	0
+						    label      	"1"
+						    pctDist    	0.900000
+						    height     	54
+						    orientation 	1))))))
+			    (object InteractionDiagram "Basic Flow"
+				mechanism_ref 	@115
+				quid       	"653C725A016E"
+				title      	"Basic Flow"
+				zoom       	90
+				max_height 	28350
+				max_width  	21600
+				origin_x   	0
+				origin_y   	1545
+				items      	(list diagram_item_list
+				    (object InterObjView "$UNNAMED$96" @138
+					location   	(269, 316)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	TRUE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@138
+					    location   	(269, 341)
+					    anchor_loc 	1
+					    nlines     	2
+					    max_width  	324
+					    justify    	0
+					    label      	"")
+					icon       	"Actor"
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"653C7ECD01E9"
+					width      	300
+					height     	5351
+					icon_height 	150
+					icon_width 	108
+					icon_y_offset 	0
+					annotation 	1
+					Focus_Of_Control 	(object Focus_Of_Control "" @139
+					    location   	(269, 396)
+					    line_color 	3342489
+					    InterObjView 	@138
+					    height     	150
+					    y_coord    	60
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @140
+					    location   	(269, 1454)
+					    line_color 	3342489
+					    InterObjView 	@138
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @141
+					    location   	(269, 1618)
+					    line_color 	3342489
+					    InterObjView 	@138
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @142
+					    location   	(269, 1760)
+					    line_color 	3342489
+					    InterObjView 	@138
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @143
+					    location   	(269, 2852)
+					    line_color 	3342489
+					    InterObjView 	@138
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @144
+					    location   	(269, 2998)
+					    line_color 	3342489
+					    InterObjView 	@138
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @145
+					    location   	(269, 3156)
+					    line_color 	3342489
+					    InterObjView 	@138
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @146
+					    location   	(269, 4245)
+					    line_color 	3342489
+					    InterObjView 	@138
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @147
+					    location   	(269, 4549)
+					    line_color 	3342489
+					    InterObjView 	@138
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE))
+				    (object InterObjView "$UNNAMED$97" @148
+					location   	(1088, 333)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	TRUE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@148
+					    location   	(1088, 359)
+					    anchor_loc 	1
+					    nlines     	2
+					    max_width  	651
+					    justify    	0
+					    label      	"")
+					icon       	"boundary"
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"653C7EED023C"
+					width      	300
+					height     	5334
+					icon_height 	141
+					icon_width 	217
+					icon_y_offset 	0
+					annotation 	1
+					Focus_Of_Control 	(object Focus_Of_Control "" @149
+					    location   	(1088, 413)
+					    line_color 	3342489
+					    InterObjView 	@148
+					    height     	103
+					    y_coord    	13
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @150
+					    location   	(1088, 456)
+					    line_color 	3342489
+					    InterObjView 	@148
+					    height     	90
+					    y_coord    	0
+					    Nested     	TRUE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @151
+					    location   	(1088, 613)
+					    line_color 	3342489
+					    InterObjView 	@148
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @152
+					    location   	(1088, 1149)
+					    line_color 	3342489
+					    InterObjView 	@148
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @153
+					    location   	(1088, 1295)
+					    line_color 	3342489
+					    InterObjView 	@148
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @154
+					    location   	(1088, 1320)
+					    line_color 	3342489
+					    InterObjView 	@148
+					    height     	90
+					    y_coord    	0
+					    Nested     	TRUE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @155
+					    location   	(1088, 1454)
+					    line_color 	3342489
+					    InterObjView 	@148
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @156
+					    location   	(1088, 1618)
+					    line_color 	3342489
+					    InterObjView 	@148
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @157
+					    location   	(1088, 1760)
+					    line_color 	3342489
+					    InterObjView 	@148
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @158
+					    location   	(1088, 1909)
+					    line_color 	3342489
+					    InterObjView 	@148
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @159
+					    location   	(1088, 2523)
+					    line_color 	3342489
+					    InterObjView 	@148
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @160
+					    location   	(1088, 2671)
+					    line_color 	3342489
+					    InterObjView 	@148
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @161
+					    location   	(1088, 2696)
+					    line_color 	3342489
+					    InterObjView 	@148
+					    height     	90
+					    y_coord    	0
+					    Nested     	TRUE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @162
+					    location   	(1088, 2852)
+					    line_color 	3342489
+					    InterObjView 	@148
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @163
+					    location   	(1088, 2998)
+					    line_color 	3342489
+					    InterObjView 	@148
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @164
+					    location   	(1088, 3156)
+					    line_color 	3342489
+					    InterObjView 	@148
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @165
+					    location   	(1088, 3295)
+					    line_color 	3342489
+					    InterObjView 	@148
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @166
+					    location   	(1088, 3900)
+					    line_color 	3342489
+					    InterObjView 	@148
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @167
+					    location   	(1088, 4060)
+					    line_color 	3342489
+					    InterObjView 	@148
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @168
+					    location   	(1088, 4085)
+					    line_color 	3342489
+					    InterObjView 	@148
+					    height     	90
+					    y_coord    	0
+					    Nested     	TRUE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @169
+					    location   	(1088, 4245)
+					    line_color 	3342489
+					    InterObjView 	@148
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @170
+					    location   	(1088, 4381)
+					    line_color 	3342489
+					    InterObjView 	@148
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @171
+					    location   	(1088, 4406)
+					    line_color 	3342489
+					    InterObjView 	@148
+					    height     	90
+					    y_coord    	0
+					    Nested     	TRUE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @172
+					    location   	(1088, 4549)
+					    line_color 	3342489
+					    InterObjView 	@148
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @173
+					    location   	(1088, 4706)
+					    line_color 	3342489
+					    InterObjView 	@148
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @174
+					    location   	(1088, 5316)
+					    line_color 	3342489
+					    InterObjView 	@148
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @175
+					    location   	(1088, 5462)
+					    line_color 	3342489
+					    InterObjView 	@148
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @176
+					    location   	(1088, 5487)
+					    line_color 	3342489
+					    InterObjView 	@148
+					    height     	90
+					    y_coord    	0
+					    Nested     	TRUE))
+				    (object InterObjView "$UNNAMED$98" @177
+					location   	(2053, 282)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	TRUE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@177
+					    location   	(2053, 307)
+					    anchor_loc 	1
+					    nlines     	2
+					    max_width  	616
+					    justify    	0
+					    label      	"")
+					icon       	"control"
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"653C7EF403AB"
+					width      	300
+					height     	5385
+					icon_height 	152
+					icon_width 	145
+					icon_y_offset 	0
+					annotation 	1
+					Focus_Of_Control 	(object Focus_Of_Control "" @178
+					    location   	(2053, 613)
+					    line_color 	3342489
+					    InterObjView 	@177
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @179
+					    location   	(2053, 757)
+					    line_color 	3342489
+					    InterObjView 	@177
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @180
+					    location   	(2053, 1000)
+					    line_color 	3342489
+					    InterObjView 	@177
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @181
+					    location   	(2053, 1149)
+					    line_color 	3342489
+					    InterObjView 	@177
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @182
+					    location   	(2053, 1909)
+					    line_color 	3342489
+					    InterObjView 	@177
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @183
+					    location   	(2053, 2057)
+					    line_color 	3342489
+					    InterObjView 	@177
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @184
+					    location   	(2053, 2234)
+					    line_color 	3342489
+					    InterObjView 	@177
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @185
+					    location   	(2053, 2523)
+					    line_color 	3342489
+					    InterObjView 	@177
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @186
+					    location   	(2053, 3295)
+					    line_color 	3342489
+					    InterObjView 	@177
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @187
+					    location   	(2053, 3468)
+					    line_color 	3342489
+					    InterObjView 	@177
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @188
+					    location   	(2053, 3622)
+					    line_color 	3342489
+					    InterObjView 	@177
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @189
+					    location   	(2053, 3900)
+					    line_color 	3342489
+					    InterObjView 	@177
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @190
+					    location   	(2053, 4706)
+					    line_color 	3342489
+					    InterObjView 	@177
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @191
+					    location   	(2053, 4859)
+					    line_color 	3342489
+					    InterObjView 	@177
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @192
+					    location   	(2053, 5013)
+					    line_color 	3342489
+					    InterObjView 	@177
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @193
+					    location   	(2053, 5316)
+					    line_color 	3342489
+					    InterObjView 	@177
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE))
+				    (object InterObjView "$UNNAMED$100" @194
+					location   	(3105, 285)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	TRUE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@194
+					    location   	(3105, 311)
+					    anchor_loc 	1
+					    nlines     	2
+					    max_width  	426
+					    justify    	0
+					    label      	"")
+					icon       	"entity"
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"653C7F0F0318"
+					width      	300
+					height     	5382
+					icon_height 	141
+					icon_width 	142
+					icon_y_offset 	0
+					annotation 	1
+					Focus_Of_Control 	(object Focus_Of_Control "" @195
+					    location   	(3105, 1000)
+					    line_color 	3342489
+					    InterObjView 	@194
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @196
+					    location   	(3105, 2057)
+					    line_color 	3342489
+					    InterObjView 	@194
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @197
+					    location   	(3105, 3468)
+					    line_color 	3342489
+					    InterObjView 	@194
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @198
+					    location   	(3105, 4859)
+					    line_color 	3342489
+					    InterObjView 	@194
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE))
+				    (object InterObjView "$UNNAMED$99" @199
+					location   	(4017, 274)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	TRUE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@199
+					    location   	(4017, 300)
+					    anchor_loc 	1
+					    nlines     	2
+					    max_width  	651
+					    justify    	0
+					    label      	"")
+					icon       	"boundary"
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"653C7EF90344"
+					width      	300
+					height     	5393
+					icon_height 	141
+					icon_width 	217
+					icon_y_offset 	0
+					annotation 	1
+					Focus_Of_Control 	(object Focus_Of_Control "" @200
+					    location   	(4017, 757)
+					    line_color 	3342489
+					    InterObjView 	@199
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @201
+					    location   	(4017, 892)
+					    line_color 	3342489
+					    InterObjView 	@199
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @202
+					    location   	(4017, 2234)
+					    line_color 	3342489
+					    InterObjView 	@199
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @203
+					    location   	(4017, 2376)
+					    line_color 	3342489
+					    InterObjView 	@199
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @204
+					    location   	(4017, 3622)
+					    line_color 	3342489
+					    InterObjView 	@199
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @205
+					    location   	(4017, 3763)
+					    line_color 	3342489
+					    InterObjView 	@199
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @206
+					    location   	(4017, 5013)
+					    line_color 	3342489
+					    InterObjView 	@199
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @207
+					    location   	(4017, 5164)
+					    line_color 	3342489
+					    InterObjView 	@199
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE))
+				    (object InterObjView "$UNNAMED$101" @208
+					location   	(4826, 270)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	TRUE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@208
+					    location   	(4826, 295)
+					    anchor_loc 	1
+					    nlines     	2
+					    max_width  	324
+					    justify    	0
+					    label      	"")
+					icon       	"Actor"
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"653C7EFF00D3"
+					width      	300
+					height     	5397
+					icon_height 	150
+					icon_width 	108
+					icon_y_offset 	0
+					annotation 	1
+					Focus_Of_Control 	(object Focus_Of_Control "" @209
+					    location   	(4826, 892)
+					    line_color 	3342489
+					    InterObjView 	@208
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @210
+					    location   	(4826, 2376)
+					    line_color 	3342489
+					    InterObjView 	@208
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @211
+					    location   	(4826, 3763)
+					    line_color 	3342489
+					    InterObjView 	@208
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @212
+					    location   	(4826, 5164)
+					    line_color 	3342489
+					    InterObjView 	@208
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE))
+				    (object InterMessView "Click \"Cua Hang\"()" @213
+					location   	(0, 456)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @214
+					    Parent_View 	@213
+					    location   	(678, 412)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C7F3D00A4"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	400
+					    justify    	0
+					    label      	
+|Click "Cua Hang"()
+					    
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@138
+					supplier   	@148
+					Focus_Src  	@139
+					Focus_Entry 	@150
+					origin     	(284, 456)
+					terminus   	(1072, 456)
+					ordinal    	0)
+				    (object InterMessView "Lay thong tin cac cua hang()" @215
+					location   	(0, 613)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @216
+					    Parent_View 	@215
+					    location   	(1566, 570)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C7F6A02B1"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	574
+					    justify    	0
+					    label      	"Lay thong tin cac cua hang()"
+					    pctDist    	0.496788
+					    height     	44
+					    orientation 	0)
+					line_color 	3342489
+					client     	@148
+					supplier   	@177
+					Focus_Src  	@151
+					Focus_Entry 	@178
+					origin     	(1103, 613)
+					terminus   	(2037, 613)
+					ordinal    	1)
+				    (object InterMessView "Doc bang PAGES()" @217
+					location   	(0, 757)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @218
+					    Parent_View 	@217
+					    location   	(3034, 713)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C7FA5028F"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	404
+					    justify    	0
+					    label      	"Doc bang PAGES()"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@177
+					supplier   	@199
+					Focus_Src  	@179
+					Focus_Entry 	@200
+					origin     	(2068, 757)
+					terminus   	(4001, 757)
+					ordinal    	2)
+				    (object InterMessView "Doc bang PAGES()" @219
+					location   	(0, 892)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @220
+					    Parent_View 	@219
+					    location   	(4421, 848)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C7FD403E2"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	404
+					    justify    	0
+					    label      	"Doc bang PAGES()"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@199
+					supplier   	@208
+					Focus_Src  	@201
+					Focus_Entry 	@209
+					origin     	(4032, 892)
+					terminus   	(4810, 892)
+					ordinal    	3)
+				    (object InterMessView "getPages()" @221
+					location   	(0, 1000)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @222
+					    Parent_View 	@221
+					    location   	(2578, 956)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C7FE20393"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	262
+					    justify    	0
+					    label      	"getPages()"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@177
+					supplier   	@194
+					Focus_Src  	@180
+					Focus_Entry 	@195
+					origin     	(2068, 1000)
+					terminus   	(3089, 1000)
+					ordinal    	4)
+				    (object InterMessView "return ket qua" @223
+					location   	(0, 1149)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @224
+					    Parent_View 	@223
+					    location   	(1571, 1105)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C803002F5"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	299
+					    justify    	0
+					    label      	"return ket qua"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	1)
+					line_color 	3342489
+					client     	@177
+					supplier   	@148
+					Focus_Src  	@181
+					Focus_Entry 	@152
+					origin     	(2037, 1149)
+					terminus   	(1104, 1149)
+					ordinal    	5)
+				    (object SelfMessView "Hien thi danh sach cac cua hang()" @225
+					location   	(0, 1295)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @226
+					    Parent_View 	@225
+					    location   	(1179, 1251)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C803C0048"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	691
+					    justify    	0
+					    label      	"Hien thi danh sach cac cua hang()"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@148
+					supplier   	@148
+					Focus_Src  	@153
+					Focus_Entry 	@154
+					origin     	(1104, 1295)
+					terminus   	(1254, 1295)
+					ordinal    	6)
+				    (object InterMessView "Click \"Them moi\"()" @227
+					location   	(0, 1454)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @228
+					    Parent_View 	@227
+					    location   	(676, 1410)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C807200C3"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	399
+					    justify    	0
+					    label      	
+|Click "Them moi"()
+					    
+					    pctDist    	0.498731
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@138
+					supplier   	@148
+					Focus_Src  	@140
+					Focus_Entry 	@155
+					origin     	(284, 1454)
+					terminus   	(1072, 1454)
+					ordinal    	7)
+				    (object InterMessView "Nhap thong tin moi cho cua hang" @229
+					location   	(0, 1618)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @230
+					    Parent_View 	@229
+					    location   	(678, 1574)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C809A02B7"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	660
+					    justify    	0
+					    label      	"Nhap thong tin moi cho cua hang"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@138
+					supplier   	@148
+					Focus_Src  	@141
+					Focus_Entry 	@156
+					origin     	(284, 1618)
+					terminus   	(1072, 1618)
+					ordinal    	8)
+				    (object InterMessView "Click \"Tao\"" @231
+					location   	(0, 1760)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @232
+					    Parent_View 	@231
+					    location   	(678, 1716)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C81B501DF"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	274
+					    justify    	0
+					    label      	
+|Click "Tao"
+					    
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@138
+					supplier   	@148
+					Focus_Src  	@142
+					Focus_Entry 	@157
+					origin     	(284, 1760)
+					terminus   	(1072, 1760)
+					ordinal    	9)
+				    (object InterMessView "Cap nhat cua hang moi()" @233
+					location   	(0, 1909)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @234
+					    Parent_View 	@233
+					    location   	(1570, 1867)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C81DE0206"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	528
+					    justify    	0
+					    label      	"Cap nhat cua hang moi()"
+					    pctDist    	0.500000
+					    height     	43
+					    orientation 	0)
+					line_color 	3342489
+					client     	@148
+					supplier   	@177
+					Focus_Src  	@158
+					Focus_Entry 	@182
+					origin     	(1103, 1909)
+					terminus   	(2037, 1909)
+					ordinal    	10)
+				    (object InterMessView "setPAGESbyPageID()" @235
+					location   	(0, 2057)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @236
+					    Parent_View 	@235
+					    location   	(2578, 2013)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C81FF026E"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	466
+					    justify    	0
+					    label      	"setPAGESbyPageID()"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@177
+					supplier   	@194
+					Focus_Src  	@183
+					Focus_Entry 	@196
+					origin     	(2068, 2057)
+					terminus   	(3089, 2057)
+					ordinal    	11)
+				    (object InterMessView "Cap nhat bang PAGES()" @237
+					location   	(0, 2234)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @238
+					    Parent_View 	@237
+					    location   	(3034, 2190)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C822900FD"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	524
+					    justify    	0
+					    label      	"Cap nhat bang PAGES()"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@177
+					supplier   	@199
+					Focus_Src  	@184
+					Focus_Entry 	@202
+					origin     	(2068, 2234)
+					terminus   	(4001, 2234)
+					ordinal    	12)
+				    (object InterMessView "Cap nhat bang PAGES()" @239
+					location   	(0, 2376)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @240
+					    Parent_View 	@239
+					    location   	(4421, 2332)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C8234024F"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	514
+					    justify    	0
+					    label      	"Cap nhat bang PAGES()"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@199
+					supplier   	@208
+					Focus_Src  	@203
+					Focus_Entry 	@210
+					origin     	(4032, 2376)
+					terminus   	(4810, 2376)
+					ordinal    	13)
+				    (object InterMessView "return ket qua" @241
+					location   	(0, 2523)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @242
+					    Parent_View 	@241
+					    location   	(1571, 2479)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C8273013F"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	323
+					    justify    	0
+					    label      	"return ket qua"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	1)
+					line_color 	3342489
+					client     	@177
+					supplier   	@148
+					Focus_Src  	@185
+					Focus_Entry 	@159
+					origin     	(2037, 2523)
+					terminus   	(1104, 2523)
+					ordinal    	14)
+				    (object SelfMessView "Hien thi danh sach cac cua hang()" @243
+					location   	(0, 2671)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @244
+					    Parent_View 	@243
+					    location   	(1179, 2627)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C8279015B"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	711
+					    justify    	0
+					    label      	"Hien thi danh sach cac cua hang()"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@148
+					supplier   	@148
+					Focus_Src  	@160
+					Focus_Entry 	@161
+					origin     	(1104, 2671)
+					terminus   	(1254, 2671)
+					ordinal    	15)
+				    (object InterMessView "Click \"Sua\"()" @245
+					location   	(0, 2852)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @246
+					    Parent_View 	@245
+					    location   	(678, 2808)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C828E0010"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	305
+					    justify    	0
+					    label      	
+|Click "Sua"()
+					    
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@138
+					supplier   	@148
+					Focus_Src  	@143
+					Focus_Entry 	@162
+					origin     	(284, 2852)
+					terminus   	(1072, 2852)
+					ordinal    	16)
+				    (object InterMessView "Nhap thong tin moi cho cua hang" @247
+					location   	(0, 2998)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @248
+					    Parent_View 	@247
+					    location   	(678, 2954)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C82CD0092"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	684
+					    justify    	0
+					    label      	"Nhap thong tin moi cho cua hang"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@138
+					supplier   	@148
+					Focus_Src  	@144
+					Focus_Entry 	@163
+					origin     	(284, 2998)
+					terminus   	(1072, 2998)
+					ordinal    	17)
+				    (object InterMessView "Click \"Cap nhat\"()" @249
+					location   	(0, 3156)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @250
+					    Parent_View 	@249
+					    location   	(678, 3112)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C82F10092"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	402
+					    justify    	0
+					    label      	
+|Click "Cap nhat"()
+					    
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@138
+					supplier   	@148
+					Focus_Src  	@145
+					Focus_Entry 	@164
+					origin     	(284, 3156)
+					terminus   	(1072, 3156)
+					ordinal    	18)
+				    (object InterMessView "Cap nhat thong tin cua hang()" @251
+					location   	(0, 3295)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @252
+					    Parent_View 	@251
+					    location   	(1570, 3251)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C83220237"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	618
+					    justify    	0
+					    label      	"Cap nhat thong tin cua hang()"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@148
+					supplier   	@177
+					Focus_Src  	@165
+					Focus_Entry 	@186
+					origin     	(1103, 3295)
+					terminus   	(2037, 3295)
+					ordinal    	19)
+				    (object InterMessView "setPAGESbyPageID()" @253
+					location   	(0, 3468)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @254
+					    Parent_View 	@253
+					    location   	(2579, 3426)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C8398001C"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	466
+					    justify    	0
+					    label      	"setPAGESbyPageID()"
+					    pctDist    	0.501469
+					    height     	43
+					    orientation 	0)
+					line_color 	3342489
+					client     	@177
+					supplier   	@194
+					Focus_Src  	@187
+					Focus_Entry 	@197
+					origin     	(2068, 3468)
+					terminus   	(3089, 3468)
+					ordinal    	20)
+				    (object InterMessView "Cap nhat bang PAGES()" @255
+					location   	(0, 3622)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @256
+					    Parent_View 	@255
+					    location   	(3033, 3579)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C83AA003A"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	524
+					    justify    	0
+					    label      	"Cap nhat bang PAGES()"
+					    pctDist    	0.499224
+					    height     	44
+					    orientation 	0)
+					line_color 	3342489
+					client     	@177
+					supplier   	@199
+					Focus_Src  	@188
+					Focus_Entry 	@204
+					origin     	(2068, 3622)
+					terminus   	(4001, 3622)
+					ordinal    	21)
+				    (object InterMessView "Cap nhat bang PAGES()" @257
+					location   	(0, 3763)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @258
+					    Parent_View 	@257
+					    location   	(4421, 3719)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C83B601CE"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	514
+					    justify    	0
+					    label      	"Cap nhat bang PAGES()"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@199
+					supplier   	@208
+					Focus_Src  	@205
+					Focus_Entry 	@211
+					origin     	(4032, 3763)
+					terminus   	(4810, 3763)
+					ordinal    	22)
+				    (object InterMessView "return ket qua" @259
+					location   	(0, 3900)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @260
+					    Parent_View 	@259
+					    location   	(1571, 3856)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C83D30106"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	323
+					    justify    	0
+					    label      	"return ket qua"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	1)
+					line_color 	3342489
+					client     	@177
+					supplier   	@148
+					Focus_Src  	@189
+					Focus_Entry 	@166
+					origin     	(2037, 3900)
+					terminus   	(1104, 3900)
+					ordinal    	23)
+				    (object SelfMessView "Hien thi danh sach cac cua hang()" @261
+					location   	(0, 4060)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @262
+					    Parent_View 	@261
+					    location   	(1179, 4016)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C83DD0040"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	711
+					    justify    	0
+					    label      	"Hien thi danh sach cac cua hang()"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@148
+					supplier   	@148
+					Focus_Src  	@167
+					Focus_Entry 	@168
+					origin     	(1104, 4060)
+					terminus   	(1254, 4060)
+					ordinal    	24)
+				    (object InterMessView "Click \"Xoa\"()" @263
+					location   	(0, 4245)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @264
+					    Parent_View 	@263
+					    location   	(678, 4201)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C83EE0313"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	302
+					    justify    	0
+					    label      	
+|Click "Xoa"()
+					    
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@138
+					supplier   	@148
+					Focus_Src  	@146
+					Focus_Entry 	@169
+					origin     	(284, 4245)
+					terminus   	(1072, 4245)
+					ordinal    	25)
+				    (object SelfMessView "Hien thi man hinh xac nhan xoa()" @265
+					location   	(0, 4381)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @266
+					    Parent_View 	@265
+					    location   	(1179, 4337)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C8414015A"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	687
+					    justify    	0
+					    label      	"Hien thi man hinh xac nhan xoa()"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@148
+					supplier   	@148
+					Focus_Src  	@170
+					Focus_Entry 	@171
+					origin     	(1104, 4381)
+					terminus   	(1254, 4381)
+					ordinal    	26)
+				    (object InterMessView "Click \"Dong y\"()" @267
+					location   	(0, 4549)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @268
+					    Parent_View 	@267
+					    location   	(678, 4505)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C84280229"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	361
+					    justify    	0
+					    label      	
+|Click "Dong y"()
+					    
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@138
+					supplier   	@148
+					Focus_Src  	@147
+					Focus_Entry 	@172
+					origin     	(284, 4549)
+					terminus   	(1072, 4549)
+					ordinal    	27)
+				    (object InterMessView "Xoa cua hang()" @269
+					location   	(0, 4706)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @270
+					    Parent_View 	@269
+					    location   	(1566, 4659)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C8440012E"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	361
+					    justify    	0
+					    label      	"Xoa cua hang()"
+					    pctDist    	0.496788
+					    height     	48
+					    orientation 	0)
+					line_color 	3342489
+					client     	@148
+					supplier   	@177
+					Focus_Src  	@173
+					Focus_Entry 	@190
+					origin     	(1103, 4706)
+					terminus   	(2037, 4706)
+					ordinal    	28)
+				    (object InterMessView "deletePAGESbyPageID()" @271
+					location   	(0, 4859)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @272
+					    Parent_View 	@271
+					    location   	(2578, 4815)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C844D033B"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	524
+					    justify    	0
+					    label      	"deletePAGESbyPageID()"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@177
+					supplier   	@194
+					Focus_Src  	@191
+					Focus_Entry 	@198
+					origin     	(2068, 4859)
+					terminus   	(3089, 4859)
+					ordinal    	29)
+				    (object InterMessView "Cap nhat bang PAGES()" @273
+					location   	(0, 5013)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @274
+					    Parent_View 	@273
+					    location   	(3034, 4969)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C846C001A"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	524
+					    justify    	0
+					    label      	"Cap nhat bang PAGES()"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@177
+					supplier   	@199
+					Focus_Src  	@192
+					Focus_Entry 	@206
+					origin     	(2068, 5013)
+					terminus   	(4001, 5013)
+					ordinal    	30)
+				    (object InterMessView "Cap nhat bang PAGES()" @275
+					location   	(0, 5164)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @276
+					    Parent_View 	@275
+					    location   	(4421, 5120)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C8474015C"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	514
+					    justify    	0
+					    label      	"Cap nhat bang PAGES()"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@199
+					supplier   	@208
+					Focus_Src  	@207
+					Focus_Entry 	@212
+					origin     	(4032, 5164)
+					terminus   	(4810, 5164)
+					ordinal    	31)
+				    (object InterMessView "return ket qua" @277
+					location   	(0, 5316)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @278
+					    Parent_View 	@277
+					    location   	(1571, 5272)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C8498021F"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	323
+					    justify    	0
+					    label      	"return ket qua"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	1)
+					line_color 	3342489
+					client     	@177
+					supplier   	@148
+					Focus_Src  	@193
+					Focus_Entry 	@174
+					origin     	(2037, 5316)
+					terminus   	(1104, 5316)
+					ordinal    	32)
+				    (object SelfMessView "Hien thi danh sach cac cua hang()" @279
+					location   	(0, 5462)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @280
+					    Parent_View 	@279
+					    location   	(1179, 5418)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C849F0379"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	711
+					    justify    	0
+					    label      	"Hien thi danh sach cac cua hang()"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@148
+					supplier   	@148
+					Focus_Src  	@175
+					Focus_Entry 	@176
+					origin     	(1104, 5462)
+					terminus   	(1254, 5462)
+					ordinal    	33)))
+			    (object InteractionDiagram "Alternative Flow"
+				mechanism_ref 	@116
+				quid       	"653C84DA01FD"
+				title      	"Alternative Flow"
+				zoom       	100
+				max_height 	28350
+				max_width  	21600
+				origin_x   	5306
+				origin_y   	0
+				items      	(list diagram_item_list
+				    (object InterObjView "$UNNAMED$102" @281
+					location   	(309, 347)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	TRUE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@281
+					    location   	(309, 372)
+					    anchor_loc 	1
+					    nlines     	2
+					    max_width  	324
+					    justify    	0
+					    label      	"")
+					icon       	"Actor"
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"653C84E80097"
+					width      	300
+					height     	1715
+					icon_height 	150
+					icon_width 	108
+					icon_y_offset 	0
+					annotation 	1
+					Focus_Of_Control 	(object Focus_Of_Control "" @282
+					    location   	(309, 427)
+					    line_color 	3342489
+					    InterObjView 	@281
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @283
+					    location   	(309, 1047)
+					    line_color 	3342489
+					    InterObjView 	@281
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE))
+				    (object InterObjView "$UNNAMED$103" @284
+					location   	(989, 390)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	TRUE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@284
+					    location   	(989, 416)
+					    anchor_loc 	1
+					    nlines     	2
+					    max_width  	651
+					    justify    	0
+					    label      	"")
+					icon       	"boundary"
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"653C856E0372"
+					width      	300
+					height     	1672
+					icon_height 	141
+					icon_width 	217
+					icon_y_offset 	0
+					annotation 	1
+					Focus_Of_Control 	(object Focus_Of_Control "" @285
+					    location   	(989, 470)
+					    line_color 	3342489
+					    InterObjView 	@284
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @286
+					    location   	(989, 753)
+					    line_color 	3342489
+					    InterObjView 	@284
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @287
+					    location   	(989, 894)
+					    line_color 	3342489
+					    InterObjView 	@284
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @288
+					    location   	(989, 919)
+					    line_color 	3342489
+					    InterObjView 	@284
+					    height     	90
+					    y_coord    	0
+					    Nested     	TRUE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @289
+					    location   	(989, 1047)
+					    line_color 	3342489
+					    InterObjView 	@284
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @290
+					    location   	(989, 1178)
+					    line_color 	3342489
+					    InterObjView 	@284
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @291
+					    location   	(989, 1325)
+					    line_color 	3342489
+					    InterObjView 	@284
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @292
+					    location   	(989, 1713)
+					    line_color 	3342489
+					    InterObjView 	@284
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @293
+					    location   	(989, 1857)
+					    line_color 	3342489
+					    InterObjView 	@284
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @294
+					    location   	(989, 1882)
+					    line_color 	3342489
+					    InterObjView 	@284
+					    height     	90
+					    y_coord    	0
+					    Nested     	TRUE))
+				    (object InterObjView "$UNNAMED$104" @295
+					location   	(1853, 365)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	TRUE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@295
+					    location   	(1853, 390)
+					    anchor_loc 	1
+					    nlines     	2
+					    max_width  	618
+					    justify    	0
+					    label      	"")
+					icon       	"control"
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"653C857402A0"
+					width      	300
+					height     	1697
+					icon_height 	152
+					icon_width 	145
+					icon_y_offset 	0
+					annotation 	1
+					Focus_Of_Control 	(object Focus_Of_Control "" @296
+					    location   	(1853, 445)
+					    line_color 	3342489
+					    InterObjView 	@295
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @297
+					    location   	(1853, 613)
+					    line_color 	3342489
+					    InterObjView 	@295
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @298
+					    location   	(1853, 753)
+					    line_color 	3342489
+					    InterObjView 	@295
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @299
+					    location   	(1853, 1178)
+					    line_color 	3342489
+					    InterObjView 	@295
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @300
+					    location   	(1853, 1325)
+					    line_color 	3342489
+					    InterObjView 	@295
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @301
+					    location   	(1853, 1569)
+					    line_color 	3342489
+					    InterObjView 	@295
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @302
+					    location   	(1853, 1713)
+					    line_color 	3342489
+					    InterObjView 	@295
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE))
+				    (object InterObjView "$UNNAMED$105" @303
+					location   	(2563, 328)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	TRUE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@303
+					    location   	(2563, 354)
+					    anchor_loc 	1
+					    nlines     	2
+					    max_width  	426
+					    justify    	0
+					    label      	"")
+					icon       	"entity"
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"653C85770040"
+					width      	300
+					height     	1734
+					icon_height 	141
+					icon_width 	142
+					icon_y_offset 	0
+					annotation 	1
+					Focus_Of_Control 	(object Focus_Of_Control "" @304
+					    location   	(2563, 408)
+					    line_color 	3342489
+					    InterObjView 	@303
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @305
+					    location   	(2563, 613)
+					    line_color 	3342489
+					    InterObjView 	@303
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE))
+				    (object InterObjView "$UNNAMED$106" @306
+					location   	(3268, 312)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	TRUE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@306
+					    location   	(3268, 338)
+					    anchor_loc 	1
+					    nlines     	2
+					    max_width  	651
+					    justify    	0
+					    label      	"")
+					icon       	"boundary"
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"653C857900EE"
+					width      	300
+					height     	1750
+					icon_height 	141
+					icon_width 	217
+					icon_y_offset 	0
+					annotation 	1
+					Focus_Of_Control 	(object Focus_Of_Control "" @307
+					    location   	(3268, 392)
+					    line_color 	3342489
+					    InterObjView 	@306
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @308
+					    location   	(3268, 1456)
+					    line_color 	3342489
+					    InterObjView 	@306
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE))
+				    (object InterObjView "$UNNAMED$107" @309
+					location   	(4162, 284)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	TRUE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@309
+					    location   	(4162, 309)
+					    anchor_loc 	1
+					    nlines     	2
+					    max_width  	324
+					    justify    	0
+					    label      	"")
+					icon       	"Actor"
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"653C857C022A"
+					width      	300
+					height     	1778
+					icon_height 	150
+					icon_width 	108
+					icon_y_offset 	0
+					annotation 	1
+					Focus_Of_Control 	(object Focus_Of_Control "" @310
+					    location   	(4162, 1456)
+					    line_color 	3342489
+					    InterObjView 	@309
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @311
+					    location   	(4162, 1569)
+					    line_color 	3342489
+					    InterObjView 	@309
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE))
+				    (object NoteView @312
+					location   	(216, 590)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@312
+					    location   	(78, 530)
+					    fill_color 	13434879
+					    nlines     	2
+					    max_width  	240
+					    justify    	1
+					    label      	"Re nhanh 1")
+					line_color 	3342489
+					fill_color 	13434879
+					width      	300
+					height     	132)
+				    (object InterMessView "setPAGESbyPageID()" @313
+					location   	(0, 613)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @314
+					    Parent_View 	@313
+					    location   	(2207, 569)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C8627032E"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	434
+					    justify    	0
+					    label      	"setPAGESbyPageID()"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@295
+					supplier   	@303
+					Focus_Src  	@297
+					Focus_Entry 	@305
+					origin     	(1868, 613)
+					terminus   	(2547, 613)
+					ordinal    	0)
+				    (object InterMessView "return ket qua" @315
+					location   	(0, 753)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @316
+					    Parent_View 	@315
+					    location   	(1426, 717)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C86410191"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	284
+					    justify    	0
+					    label      	"return ket qua"
+					    pctDist    	0.493990
+					    height     	37
+					    orientation 	1)
+					line_color 	3342489
+					client     	@295
+					supplier   	@284
+					Focus_Src  	@298
+					Focus_Entry 	@286
+					origin     	(1837, 753)
+					terminus   	(1005, 753)
+					ordinal    	1)
+				    (object SelfMessView "Hien thi thong bao loi \"Thong tin khong hop le\"()" @317
+					location   	(0, 894)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @318
+					    Parent_View 	@317
+					    location   	(1080, 850)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C866C037D"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	872
+					    justify    	0
+					    label      	
+|Hien thi thong bao loi "Thong tin khong hop le"()
+					    
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@284
+					supplier   	@284
+					Focus_Src  	@287
+					Focus_Entry 	@288
+					origin     	(1005, 894)
+					terminus   	(1155, 894)
+					ordinal    	2)
+				    (object NoteView @319
+					location   	(200, 1018)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@319
+					    location   	(62, 958)
+					    fill_color 	13434879
+					    nlines     	2
+					    max_width  	240
+					    justify    	1
+					    label      	"Re nhanh 2")
+					line_color 	3342489
+					fill_color 	13434879
+					width      	300
+					height     	132)
+				    (object InterMessView "Click \"Khong dong y\"()" @320
+					location   	(0, 1047)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @321
+					    Parent_View 	@320
+					    location   	(648, 1003)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C86AF0304"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	441
+					    justify    	0
+					    label      	
+|Click "Khong dong y"()
+					    
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@281
+					supplier   	@284
+					Focus_Src  	@283
+					Focus_Entry 	@289
+					origin     	(324, 1047)
+					terminus   	(973, 1047)
+					ordinal    	3)
+				    (object InterMessView "Huy xoa cua hang()" @322
+					location   	(0, 1178)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @323
+					    Parent_View 	@322
+					    location   	(1420, 1134)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C87240040"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	394
+					    justify    	0
+					    label      	"Huy xoa cua hang()"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@284
+					supplier   	@295
+					Focus_Src  	@290
+					Focus_Entry 	@299
+					origin     	(1004, 1178)
+					terminus   	(1837, 1178)
+					ordinal    	4)
+				    (object InterMessView "return ket qua" @324
+					location   	(0, 1325)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @325
+					    Parent_View 	@324
+					    location   	(1421, 1281)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C872C0396"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	284
+					    justify    	0
+					    label      	"return ket qua"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	1)
+					line_color 	3342489
+					client     	@295
+					supplier   	@284
+					Focus_Src  	@300
+					Focus_Entry 	@291
+					origin     	(1837, 1325)
+					terminus   	(1005, 1325)
+					ordinal    	5)
+				    (object NoteView @326
+					location   	(181, 1491)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@326
+					    location   	(43, 1431)
+					    fill_color 	13434879
+					    nlines     	2
+					    max_width  	240
+					    justify    	1
+					    label      	"Re nhanh 3")
+					line_color 	3342489
+					fill_color 	13434879
+					width      	300
+					height     	132)
+				    (object InterMessView "Doc bang PAGES()" @327
+					location   	(0, 1456)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @328
+					    Parent_View 	@327
+					    location   	(3714, 1412)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C875A022E"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	388
+					    justify    	0
+					    label      	"Doc bang PAGES()"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@306
+					supplier   	@309
+					Focus_Src  	@308
+					Focus_Entry 	@310
+					origin     	(3283, 1456)
+					terminus   	(4146, 1456)
+					ordinal    	6)
+				    (object InterMessView "return loi" @329
+					location   	(0, 1569)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @330
+					    Parent_View 	@329
+					    location   	(3008, 1525)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C876D02A1"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	194
+					    justify    	0
+					    label      	"return loi"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	1)
+					line_color 	3342489
+					client     	@309
+					supplier   	@295
+					Focus_Src  	@311
+					Focus_Entry 	@301
+					origin     	(4146, 1569)
+					terminus   	(1869, 1569)
+					ordinal    	7)
+				    (object InterMessView "return loi" @331
+					location   	(0, 1713)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @332
+					    Parent_View 	@331
+					    location   	(1421, 1669)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C877403CE"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	194
+					    justify    	0
+					    label      	"return loi"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	1)
+					line_color 	3342489
+					client     	@295
+					supplier   	@284
+					Focus_Src  	@302
+					Focus_Entry 	@292
+					origin     	(1837, 1713)
+					terminus   	(1005, 1713)
+					ordinal    	8)
+				    (object SelfMessView "Hien thi thong bao \"Loi ket noi den co so du lieu\"()" @333
+					location   	(0, 1857)
+					font       	(object Font
+					    size       	10
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @334
+					    Parent_View 	@333
+					    location   	(1080, 1813)
+					    font       	(object Font
+						size       	10
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"653C877A00EC"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	950
+					    justify    	0
+					    label      	
+|Hien thi thong bao "Loi ket noi den co so du lieu"()
+					    
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@284
+					supplier   	@284
+					Focus_Src  	@293
+					Focus_Entry 	@294
+					origin     	(1005, 1857)
+					terminus   	(1155, 1857)
+					ordinal    	9)))))
+		    (object Association "$UNNAMED$108"
+			quid       	"653C7E02032F"
+			roles      	(list role_list
+			    (object Role "$UNNAMED$109"
+				quid       	"653C7E0301E1"
+				supplier   	"Logical View::BaoTriThongTinCuaHangController"
+				quidu      	"653C7642025B"
+				client_cardinality 	(value cardinality "1")
+				is_navigable 	TRUE)
+			    (object Role "$UNNAMED$110"
+				quid       	"653C7E0301E3"
+				supplier   	"Logical View::BaoTriThongTinCuaHangUI"
+				quidu      	"653C72F1035D"
+				client_cardinality 	(value cardinality "1")
+				is_navigable 	TRUE)))
+		    (object Association "$UNNAMED$111"
+			quid       	"653C7E3803A1"
+			roles      	(list role_list
+			    (object Role "$UNNAMED$112"
+				quid       	"653C7E39018B"
+				supplier   	"Logical View::IHeThongCSDL"
+				quidu      	"653C78180305"
+				client_cardinality 	(value cardinality "1")
+				is_navigable 	TRUE)
+			    (object Role "$UNNAMED$113"
+				quid       	"653C7E39018D"
+				supplier   	"Logical View::BaoTriThongTinCuaHangController"
+				quidu      	"653C7642025B"
+				client_cardinality 	(value cardinality "1")
+				is_navigable 	TRUE)))
+		    (object Association "$UNNAMED$114"
+			quid       	"653C7E4F032A"
+			roles      	(list role_list
+			    (object Role "$UNNAMED$115"
+				quid       	"653C7E500184"
+				supplier   	"Logical View::PAGES"
+				quidu      	"653C7952032F"
+				client_cardinality 	(value cardinality "*")
+				is_navigable 	TRUE)
+			    (object Role "$UNNAMED$116"
+				quid       	"653C7E500186"
+				supplier   	"Logical View::BaoTriThongTinCuaHangController"
+				quidu      	"653C7642025B"
+				client_cardinality 	(value cardinality "1")
+				is_navigable 	TRUE))))
+		logical_presentations 	(list unit_reference_list)))
 	logical_presentations 	(list unit_reference_list
 	    (object ClassDiagram "Main"
 		quid       	"653BD16E03C4"
